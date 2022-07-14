@@ -554,7 +554,7 @@ section {
 }
 
 .hero .hero-img img:hover {
-    transform: scale(1.0) rotate(5deg);
+    transform: scale(1.0) rotate(3560deg);
 }
 
 @media (min-width: 1024px) {
@@ -731,8 +731,9 @@ section {
 
 .counts {
     padding: 70px 0 60px;
-    background-image: url('../img/landing-page/bg-white.jpg');
+    background-image: url('../img/landing-page/footer-bg.jpg');
     background-size: cover;
+    background-size: 150% auto;
 }
 
 .counts .count-box {
@@ -1143,7 +1144,7 @@ section {
     position: absolute;
     top: 18px;
     right: -68px;
-    transform: rotate(45deg);
+    transform: rotate(5deg);
     z-index: 1;
     font-size: 14px;
     padding: 1px 0 3px 0;
@@ -2404,6 +2405,14 @@ section {
     background-image: url('../img/landing-page/footer-bg.jpg');
     padding: 0 0 30px 0;
     font-size: 14px;
+    background-size: 100%;
+}
+
+@media(max-width:768px) {
+    .footer {
+        background-image: url('../img/responsive/mobile-footer.jpg') center no-repeat;
+        background-size: cover;
+    }
 }
 
 .footer .footer-newsletter {
@@ -2516,6 +2525,7 @@ section {
         display: block;
         margin-left: auto;
         margin-right: auto;
+        background-size: 200%;
     }
     .footer .footer-top .footer-info .logo span {
         font-size: 20px;
