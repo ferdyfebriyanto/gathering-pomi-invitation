@@ -550,37 +550,31 @@
 
                 <div class="row gy-4">
 
-                    <div class="col-lg-6">
+                    <div class="col-lg-12">
 
                         <div class="row gy-4">
-                            <div class="col-md-6">
+                            <div class="col-md-4">
                                 <div class="info-box">
                                     <i class="bi bi-geo-alt"></i>
                                     <h3>Alamat</h3>
                                     <p>Jl. Klampok Asri II No. 276<br>Malang, Jawa Timur 65141</p>
                                 </div>
                             </div>
-                            <div class="col-md-6">
+                            <div class="col-md-4">
                                 <div class="info-box">
                                     <i class="bi bi-telephone"></i>
                                     <h3>Telepon Kami</h3>
                                     <p>1234567890<br>1234567890</p>
                                 </div>
                             </div>
-                            <div class="col-md-6">
+                            <div class="col-md-4">
                                 <div class="info-box">
                                     <i class="bi bi-envelope"></i>
                                     <h3>Email Kami</h3>
                                     <p>info@example.com<br>contact@example.com</p>
                                 </div>
                             </div>
-                            <div class="col-md-6">
-                                <div class="info-box">
-                                    <i class="bi bi-clock"></i>
-                                    <h3>Pendaftaran</h3>
-                                    <p>Senin-Selasa<br>9:00AM - 05:00PM</p>
-                                </div>
-                            </div>
+                            
                         </div>
 
                     </div>

@@ -58,7 +58,7 @@
                 <label for="floatingInput">Masukkan ID atau NIP anda</label>
             </div>
             <br>
-            <button class="w-100 btn btn-lg btn-primary" type="submit" name="submit">Sign in</button>
+            <button class="submit-login w-100 btn btn-lg btn-primary" type="submit" name="submit">Sign in</button>
             <p class="mt-5 mb-3 text-muted">WR.Net - Pitoe Creative Network &copy; 2022</p>
         </form>
     </main>
