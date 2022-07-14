@@ -8,17 +8,19 @@
     <meta name="author" content="ferdyfebriyanto">
     <title>Login | POMI</title>
 
-    <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/sign-in/">
-    <link href="https://getbootstrap.com/docs/5.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-
     <!-- Favicons -->
     <link rel="shortcut icon" href="assets/img/pomi.png" type="image/x-icon">
 
     <!-- Custom styles for this template -->
     <link href="assets/css/signin.css" rel="stylesheet">
+
+    <!-- Styles Vendor -->
+    <!-- <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/sign-in/"> -->
+    <link href="https://getbootstrap.com/docs/5.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
 </head>
 
-<body class="text-center">
+<body class="text-center hero">
     <?php
         $msg = '';
         session_start();
@@ -40,7 +42,7 @@
     <main class="form-signin w-100 m-auto">
         <form action="" method="post">
             <img class="mb-4" src="assets/img/pomi.png" alt="" width="300" height="auto">
-            <h1 class="h3 mb-3 fw-normal">Please Sign In</h1>
+            <h1 class="h3 mb-3 fw-normal">Selamat Datang</h1>
 
             <div class="form-floating">
                 <input type="text" class="form-control" name="nip" id="floatingInput" placeholder="Masukkan ID atau NIP anda"  required>

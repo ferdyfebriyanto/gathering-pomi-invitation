@@ -37,7 +37,7 @@
 	if($_SESSION['login']!=true){
 		header("location:./login.php");
 	}
-	?>
+?>
     <!-- ======= Header ======= -->
     <header id="header" class="header fixed-top">
         <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
@@ -54,7 +54,7 @@
                     <li><a class="nav-link scrollto" href="#rundown">Agenda</a></li>
                     <li><a class="nav-link scrollto" href="#portfolio">Galeri</a></li>
                     <li><a class="nav-link scrollto" href="#contact">Kontak</a></li>
-                    <!-- <li><a class="getstarted scrollto" href="#about">Registrasi</a></li> -->
+                    <li><a class="getstarted scrollto" href="logout.php">Logout</a></li>
                 </ul>
                 <i class="bi bi-list mobile-nav-toggle"></i>
             </nav>
@@ -603,28 +603,25 @@
                 <div class="row gy-4">
                     <div class="col-lg-5 col-md-12 footer-info">
                         <a href="index.html" class="logo d-flex align-items-center">
-                            <img src="assets/img/logo.png" alt="">
-                            <span>Gathering</span>
+                            <img src="assets/img/pomi.png" alt="">
+                            <span>Family Gathering POMI</span>
                         </a>
                         <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus.</p>
                         <div class="social-links mt-3">
-                            <!-- <a href="#" class="twitter"><i class="bi bi-twitter"></i></a> -->
-                            <!-- <a href="#" class="facebook"><i class="bi bi-facebook"></i></a> -->
-                            <a href="#" class="instagram"><i class="bi bi-instagram"> </i>@Gathering </a>
-                            <!-- <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a> -->
+                            <a href="https://www.instagram.com/pjb_ubjompaiton/" class="instagram"><i class="bi bi-instagram" target="blank"> </i>@Gathering</a>
                         </div>
                     </div>
 
                     <div class="col-lg-7 col-md-12 footer-links">
                         <h4>Powered By</h4>
-                        <div class="row">
-                            <div class="col-lg-4 col-md-4 col-12 col-12">
-                                <img src="assets/img/logo-vendor/pitoe.png" alt="" class="f-logo khusus">
+                        <div class="row  gy-4">
+                            <div class="col-lg-3 col-md-2 col-12 col-12">
+                                <img src="assets/img/logo-vendor/pitoe.png" alt="" class="f-logo">
                             </div>
-                            <div class="col-lg-4 col-md-4 col-12 col-12">
+                            <div class="col-lg-3 col-md-3 col-12 col-12">
                                 <img src="assets/img/logo-vendor/pitoe-event.png" alt="" class="f-logo">
                             </div>
-                            <div class="col-lg-4 col-md-4 col-12 col-12">
+                            <div class="col-lg-3 col-md-2 col-12 col-12">
                                 <img src="assets/img/logo-vendor/wrnet.png" alt="" class="f-logo">
                             </div>
                         </div>
@@ -658,20 +655,24 @@
         <!-- <p id="audioStatus">Click The Play Button</p> -->
         <script>
             var status = 0;
+            $(document).ready(function(){
+                document.getElementById("myAudio").play();
+
+            });
             function playMyAudio() {
                 if (status == 0) {
                     status = 1;
                     document.getElementById("myAudio").pause();
-                    document.getElementById("audioStatus").innerHTML = "Audio Paused";
+                    // document.getElementById("audioStatus").innerHTML = "Audio Paused";
                     // document.getElementById(iconAudio).className=="bi bi-volume-mute";
                 } else {
                     status = 0;
                     document.getElementById("myAudio").play();
-                    document.getElementById("audioStatus").innerHTML = "Audio is Playing";
+                    // document.getElementById("audioStatus").innerHTML = "Audio is Playing";
                     // document.getElementById(iconAudio).className=="bi bi-volume-up";
                 } 
                 
-                if((e.which || e.keyCode) == 116) e.preventDefault();
+                // if((e.which || e.keyCode) == 116) e.preventDefault();
             }
 
         </script>

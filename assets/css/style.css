@@ -495,7 +495,7 @@ section {
 .hero {
     width: 100%;
     height: 100vh;
-    background: url(../img/hero-bg5.jpg) top center no-repeat;
+    background: url('../img/landing-page/hero-bg.jpg') top center no-repeat;
     background-size: cover;
 }
 
@@ -581,6 +581,10 @@ section {
 @media (max-width: 768px) {
     .hero {
         text-align: center;
+        background: url('../img/responsive/mobile-2.png') top center no-repeat;
+        /* height: 100%; */
+        min-height: 130vh;
+        width: 100%;
     }
     .hero h1 {
         font-size: 32px;
@@ -589,7 +593,7 @@ section {
         font-size: 24px;
     }
     .hero .hero-img img {
-        width: 100%;
+        width: 80%;
     }
 }
 
@@ -604,7 +608,7 @@ section {
 --------------------------------------------------------------*/
 
 .about {
-    background: url(../img/about-bg.jpg);
+    background: url('../img/landing-page/about-bg.jpg');
     background-size: cover;
 }
 
@@ -727,7 +731,7 @@ section {
 
 .counts {
     padding: 70px 0 60px;
-    background-image: url('../img/bg-white.jpg');
+    background-image: url('../img/landing-page/bg-white.jpg');
     background-size: cover;
 }
 
@@ -1208,7 +1212,23 @@ section {
 --------------------------------------------------------------*/
 
 .portfolio {
-    background-image: url('../img/pantai.jpg');
+    background-image: url('../img/landing-page/bg-ungu.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+@media(max-width: 768px) {
+    .portfolio {
+        background-image: url('../img/responsive/mobile-3.png');
+    }
+    .portfolio .section-header p {
+        margin: 28px;
+    }
+}
+
+.portfolio .section-header p {
+    color: #ffffff;
+    text-shadow: 0px 2px 5px #000;
 }
 
 .portfolio #portfolio-flters {
@@ -2381,8 +2401,7 @@ section {
 --------------------------------------------------------------*/
 
 .footer {
-    background: #374561;
-    background-image: url('../img/footer-bg.jpg');
+    background-image: url('../img/landing-page/bg-white.jpg');
     padding: 0 0 30px 0;
     font-size: 14px;
 }
@@ -2468,7 +2487,7 @@ section {
 
 .footer .footer-top .footer-info .logo span {
     font-size: 30px;
-    font-weight: 700;
+    font-weight: 800;
     letter-spacing: 1px;
     color: #012970;
     font-family: "Nunito", sans-serif;
@@ -2485,14 +2504,26 @@ section {
 .footer .footer-top .social-links a {
     font-size: 20px;
     display: inline-block;
-    color: rgba(1, 41, 112, 0.5);
+    color: #262689;
     line-height: 0;
     margin-right: 10px;
     transition: 0.3s;
 }
 
+@media(max-width:768px) {
+    .footer {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .footer .footer-top .footer-info .logo span {
+        font-size: 20px;
+        font-weight: 800;
+    }
+}
+
 .footer .footer-top .social-links a:hover {
-    color: #012970;
+    color: #2eb1e6;
 }
 
 .footer .footer-top h4 {
@@ -2560,6 +2591,6 @@ section {
 }
 
 .f-logo {
-    width: 70%;
-    margin: 10px 2px;
+    max-height: 50px;
+    margin-right: 10px;
 }
