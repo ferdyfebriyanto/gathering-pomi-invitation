@@ -31,19 +31,28 @@
                 $_SESSION['id'] = $_POST['nip'] ;
                 $_SESSION['nama'] = $_POST['nip'] ;
                 header("location:./index.php");
-
                 echo 'You have entered valid use name and password';
             }else {
                 $msg = 'Wrong id or password';
             }
         }
     ?>
+    
 
     <main class="form-signin w-100 m-auto">
         <form action="" method="post">
             <img class="mb-4" src="assets/img/pomi.png" alt="" width="300" height="auto">
             <h1 class="h3 mb-3 fw-normal">Selamat Datang</h1>
+            <!-- =====Alert===== -->
+            <div id="berhasil" class="alert alert-primary" role="alert">
+                Login Berhasil
+            </div>
 
+            <div id="gagal" class="alert alert-danger" role="alert">
+                Coba Cek Kembali NIP Anda
+            </div>
+            
+            <!-- End Alert -->
             <div class="form-floating">
                 <input type="text" class="form-control" name="nip" id="floatingInput" placeholder="Masukkan ID atau NIP anda"  required>
                 <label for="floatingInput">Masukkan ID atau NIP anda</label>
