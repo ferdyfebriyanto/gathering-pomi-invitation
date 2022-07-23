@@ -152,11 +152,10 @@
 
                     <div class="col-lg-6 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="200">
                         <div class="content">
-                            <h3>Tentang Acara Ini</h3>
-                            <h2>Expedita voluptas omnis cupiditate totam eveniet nobis sint iste. Dolores est repellat corrupti reprehenderit.</h2>
-                            <p>
-                                Quisquam vel ut sint cum eos hic dolores aperiam. Sed deserunt et. Inventore et et dolor consequatur itaque ut voluptate sed et. Magnam nam ipsum tenetur suscipit voluptatum nam et est corrupti.
-                            </p>
+                            <h3>Sejarah</h3>
+                            <h2>Sekilas Tentang Paiton</h2>
+                            <p> Berdiri sejak 1994, PT Paiton Energy terlibat dalam bidang power plant dan sekarang memiliki dan juga mengoperasikan tiga pembangit listrik batu bara di pembangkit listrik Paiton di Probolinggo, Jawa Timur. Kami menjadi yang pertama dan salah satu Penghasil Daya Independen terbesar yang beroperasi di Indonesia. Kami menghasilkan sekitar 13,500 GWh listrik per tahun, yang menyumbangkan sekitar 10% dari konsumsi listrik tahunan di pulau Jawa</p>
+                            <p>PT Paiton terus berusaha dan memberikan yang terbaik dalam memproduksi dan mengutamakan kesinambungan yang juga bertanggung jawab untuk lingkungan dengan prosesnya. Kami terus membuat usaha tanpa batas untuk dapat diandalkan, berkelanjutan, profesional, penghasil daya ramah lingkungan yang memberikan energi besar untuk negara.</p>
                         </div>
                     </div>
 
@@ -423,28 +422,28 @@
                     <!-- <h2>Portfolio</h2> -->
                 </header>
 
-                <!-- <div class="row" data-aos="fade-up" data-aos-delay="100">
+                <div class="row" data-aos="fade-up" data-aos-delay="100">
                     <div class="col-lg-12 d-flex justify-content-center">
                         <ul id="portfolio-flters">
                             <li data-filter="*" class="filter-active">All</li>
-                            <li data-filter=".filter-app">App</li>
-                            <li data-filter=".filter-card">Card</li>
-                            <li data-filter=".filter-web">Web</li>
+                            <li data-filter=".filter-app">Pegunungan</li>
+                            <li data-filter=".filter-card">Pantai</li>
+                            <li data-filter=".filter-web">Hutan</li>
                         </ul>
                     </div>
-                </div> -->
+                </div>
 
                 <div class="row gy-4 portfolio-container" data-aos="fade-up" data-aos-delay="200">
 
-                    <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-web">
                         <div class="portfolio-wrap">
-                            <img src="assets/img/portfolio/destinasi1.jpg" class="img-fluid" alt="">
+                            <img src="assets/img/destinasi/alas-purwo.jpg" class="img-fluid" alt="">
                             <div class="portfolio-info">
-                                <h4>App 1</h4>
-                                <p>App</p>
+                                <h4>Alas Purwo</h4>
+                                <p>Hutan</p>
                                 <div class="portfolio-links">
-                                    <a href="assets/img/portfolio/destinasi1.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox" title="App 1"><i class="bi bi-plus"></i></a>
-                                    <a href="https://youtu.be/dOYk_HhBgTc" data-gallery="portfolioGallery" class="portfokio-lightbox" title="More Details"><i class="bi bi-play-fill"></i></a>
+                                    <a href="assets/img/destinasi/alas-purwo.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Alas Purwo"><i class="bi bi-plus"></i></a>
+                                    <a href="https://youtu.be/gWV6X1JVGwY" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Alas Purwo"><i class="bi bi-play-fill"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -452,41 +451,13 @@
 
                     <div class="col-lg-4 col-md-6 portfolio-item filter-web">
                         <div class="portfolio-wrap">
-                            <img src="assets/img/portfolio/destinasi1.jpg" class="img-fluid" alt="">
+                            <img src="assets/img/destinasi/baluran.jpg" class="img-fluid" alt="">
                             <div class="portfolio-info">
-                                <h4>Web 3</h4>
-                                <p>Web</p>
+                                <h4>Baluran</h4>
+                                <p>Hutan</p>
                                 <div class="portfolio-links">
-                                    <a href="assets/img/portfolio/destinasi1.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Web 3"><i class="bi bi-plus"></i></a>
-                                    <a href="https://youtu.be/dOYk_HhBgTc" data-gallery="portfolioGallery" class="portfokio-lightbox"  title="More Details"><i class="bi bi-play-fill"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-                        <div class="portfolio-wrap">
-                            <img src="assets/img/portfolio/destinasi1.jpg" class="img-fluid" alt="">
-                            <div class="portfolio-info">
-                                <h4>App 2</h4>
-                                <p>App</p>
-                                <div class="portfolio-links">
-                                    <a href="assets/img/portfolio/destinasi1.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox" title="App 2"><i class="bi bi-plus"></i></a>
-                                    <a href="https://youtu.be/dOYk_HhBgTc" data-gallery="portfolioGallery" class="portfokio-lightbox"  title="More Details"><i class="bi bi-play-fill"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-                        <div class="portfolio-wrap">
-                            <img src="assets/img/portfolio/destinasi1.jpg" class="img-fluid" alt="">
-                            <div class="portfolio-info">
-                                <h4>Card 2</h4>
-                                <p>Card</p>
-                                <div class="portfolio-links">
-                                    <a href="assets/img/portfolio/destinasi1.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Card 2"><i class="bi bi-plus"></i></a>
-                                    <a href="https://youtu.be/dOYk_HhBgTc" data-gallery="portfolioGallery" class="portfokio-lightbox"  title="More Details"><i class="bi bi-play-fill"></i></a>
+                                    <a href="assets/img/destinasi/baluran.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Alas Purwo"><i class="bi bi-plus"></i></a>
+                                    <a href="https://youtu.be/rN2y8Vy9xdE" data-gallery="portfolioGallery" class="portfokio-lightbox"  title="Alas Purwo"><i class="bi bi-play-fill"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -494,13 +465,13 @@
 
                     <div class="col-lg-4 col-md-6 portfolio-item filter-web">
                         <div class="portfolio-wrap">
-                            <img src="assets/img/portfolio/destinasi1.jpg" class="img-fluid" alt="">
+                            <img src="assets/img/destinasi/de-djawatan-forest.jpg" class="img-fluid" alt="">
                             <div class="portfolio-info">
-                                <h4>Web 2</h4>
-                                <p>Web</p>
+                                <h4>De Djawatan Forest</h4>
+                                <p>Hutan</p>
                                 <div class="portfolio-links">
-                                    <a href="assets/img/portfolio/destinasi1.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Web 2"><i class="bi bi-plus"></i></a>
-                                    <a href="https://youtu.be/dOYk_HhBgTc" data-gallery="portfolioGallery" class="portfokio-lightbox"  title="More Details"><i class="bi bi-play-fill"></i></a>
+                                    <a href="assets/img/destinasi/de-djawatan-forest.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox" title="De Djawatan Forest"><i class="bi bi-plus"></i></a>
+                                    <a href="https://youtu.be/-SF5rwv3mXg" data-gallery="portfolioGallery" class="portfokio-lightbox"  title="De Djawatan Forest"><i class="bi bi-play-fill"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -508,13 +479,27 @@
 
                     <div class="col-lg-4 col-md-6 portfolio-item filter-app">
                         <div class="portfolio-wrap">
-                            <img src="assets/img/portfolio/destinasi1.jpg" class="img-fluid" alt="">
+                            <img src="assets/img/destinasi/gunung-ranti.jpg" class="img-fluid" alt="">
                             <div class="portfolio-info">
-                                <h4>App 3</h4>
-                                <p>App</p>
+                                <h4>Gunung Ranti</h4>
+                                <p>Pegunungan</p>
                                 <div class="portfolio-links">
-                                    <a href="assets/img/portfolio/destinasi1.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox" title="App 3"><i class="bi bi-plus"></i></a>
-                                    <a href="https://youtu.be/dOYk_HhBgTc" data-gallery="portfolioGallery" class="portfokio-lightbox"  title="More Details"><i class="bi bi-play-fill"></i></a>
+                                    <a href="assets/img/destinasi/gunung-ranti.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Gunung Ranti"><i class="bi bi-plus"></i></a>
+                                    <a href="https://youtu.be/udxb8oTUd1U" data-gallery="portfolioGallery" class="portfokio-lightbox"  title="Gunung Ranti"><i class="bi bi-play-fill"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                        <div class="portfolio-wrap">
+                            <img src="assets/img/destinasi/kawah-ijen.jpg" class="img-fluid" alt="">
+                            <div class="portfolio-info">
+                                <h4>Kawah Ijen</h4>
+                                <p>Pegunungan</p>
+                                <div class="portfolio-links">
+                                    <a href="assets/img/destinasi/kawah-ijen.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Kawah Ijen"><i class="bi bi-plus"></i></a>
+                                    <a href="https://youtu.be/ChHyAKyrMj4" data-gallery="portfolioGallery" class="portfokio-lightbox"  title="Kawah Ijen"><i class="bi bi-play-fill"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -522,13 +507,13 @@
 
                     <div class="col-lg-4 col-md-6 portfolio-item filter-card">
                         <div class="portfolio-wrap">
-                            <img src="assets/img/portfolio/destinasi1.jpg" class="img-fluid" alt="">
+                            <img src="assets/img/destinasi/muncar.jpg" class="img-fluid" alt="">
                             <div class="portfolio-info">
-                                <h4>Card 1</h4>
-                                <p>Card</p>
+                                <h4>Pantai Muncar</h4>
+                                <p>Pantai</p>
                                 <div class="portfolio-links">
-                                    <a href="assets/img/portfolio/destinasi1.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Card 1"><i class="bi bi-plus"></i></a>
-                                    <a href="https://youtu.be/dOYk_HhBgTc" data-gallery="portfolioGallery" class="portfokio-lightbox"  title="More Details"><i class="bi bi-play-fill"></i></a>
+                                    <a href="assets/img/destinasi/muncar.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Pantai Muncar"><i class="bi bi-plus"></i></a>
+                                    <a href="https://youtu.be/FryubY0KZmo" data-gallery="portfolioGallery" class="portfokio-lightbox"  title="Pantai Muncar"><i class="bi bi-play-fill"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -536,13 +521,13 @@
 
                     <div class="col-lg-4 col-md-6 portfolio-item filter-card">
                         <div class="portfolio-wrap">
-                            <img src="assets/img/portfolio/destinasi1.jpg" class="img-fluid" alt="">
+                            <img src="assets/img/destinasi/red-island.jpg" class="img-fluid" alt="">
                             <div class="portfolio-info">
-                                <h4>Card 3</h4>
-                                <p>Card</p>
+                                <h4>Red Island</h4>
+                                <p>Pantai</p>
                                 <div class="portfolio-links">
-                                    <a href="assets/img/portfolio/destinasi1.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Card 3"><i class="bi bi-plus"></i></a>
-                                    <a href="https://youtu.be/dOYk_HhBgTc" data-gallery="portfolioGallery" class="portfokio-lightbox"  title="More Details"><i class="bi bi-play-fill"></i></a>
+                                    <a href="assets/img/destinasi/red-island.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Red Island"><i class="bi bi-plus"></i></a>
+                                    <a href="https://youtu.be/82sWWKkbDD8" data-gallery="portfolioGallery" class="portfokio-lightbox"  title="Red Island"><i class="bi bi-play-fill"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -550,13 +535,27 @@
 
                     <div class="col-lg-4 col-md-6 portfolio-item filter-web">
                         <div class="portfolio-wrap">
-                            <img src="assets/img/portfolio/destinasi1.jpg" class="img-fluid" alt="">
+                            <img src="assets/img/destinasi/taman-gandrung.jpg" class="img-fluid" alt="">
                             <div class="portfolio-info">
-                                <h4>Web 3</h4>
-                                <p>Web</p>
+                                <h4>Taman Gandrung</h4>
+                                <p>Taman</p>
                                 <div class="portfolio-links">
-                                    <a href="assets/img/portfolio/destinasi1.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Web 3"><i class="bi bi-plus"></i></a>
-                                    <a href="https://youtu.be/dOYk_HhBgTc" data-gallery="portfolioGallery" class="portfokio-lightbox"  title="More Details"><i class="bi bi-play-fill"></i></a>
+                                    <a href="assets/img/destinasi/taman-gandrung.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Taman Gandrung"><i class="bi bi-plus"></i></a>
+                                    <a href="https://youtu.be/5hnFdpeHFMk" data-gallery="portfolioGallery" class="portfokio-lightbox"  title="Taman Gandrung"><i class="bi bi-play-fill"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+                        <div class="portfolio-wrap">
+                            <img src="assets/img/destinasi/villa-so-long.jpg" class="img-fluid" alt="">
+                            <div class="portfolio-info">
+                                <h4>Villa So Long</h4>
+                                <p>Pantai</p>
+                                <div class="portfolio-links">
+                                    <a href="assets/img/destinasi/villa-so-long.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Villa So Long"><i class="bi bi-plus"></i></a>
+                                    <a href="https://youtu.be/8G_eG5YM0TQ" data-gallery="portfolioGallery" class="portfokio-lightbox"  title="Villa So Long"><i class="bi bi-play-fill"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -588,21 +587,21 @@
                                 <div class="info-box">
                                     <i class="bi bi-geo-alt"></i>
                                     <h3>Alamat</h3>
-                                    <p>Jl. Klampok Asri II No. 276<br>Malang, Jawa Timur 65141</p>
+                                    <p>Sentral Senayan II, 5th floor <br> Jl. Asia Afrika No. 8 <br> Jakarta 10270, Indonesia</p>
                                 </div>
                             </div>
                             <div class="col-md-4">
                                 <div class="info-box">
                                     <i class="bi bi-telephone"></i>
                                     <h3>Telepon Kami</h3>
-                                    <p>1234567890<br>1234567890</p>
+                                    <p>+62 (21) 5797 4524</p>
                                 </div>
                             </div>
                             <div class="col-md-4">
                                 <div class="info-box">
                                     <i class="bi bi-envelope"></i>
                                     <h3>Email Kami</h3>
-                                    <p>info@example.com<br>contact@example.com</p>
+                                    <p>info@paitonenergy.com</p>
                                 </div>
                             </div>
                             
