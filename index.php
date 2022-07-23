@@ -444,7 +444,7 @@
                                 <p>App</p>
                                 <div class="portfolio-links">
                                     <a href="assets/img/portfolio/destinasi1.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox" title="App 1"><i class="bi bi-plus"></i></a>
-                                    <a href="https://youtu.be/dOYk_HhBgTc" title="More Details"><i class="bi bi-play-fill"></i></a>
+                                    <a href="https://youtu.be/dOYk_HhBgTc" data-gallery="portfolioGallery" class="portfokio-lightbox" title="More Details"><i class="bi bi-play-fill"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -458,7 +458,7 @@
                                 <p>Web</p>
                                 <div class="portfolio-links">
                                     <a href="assets/img/portfolio/destinasi1.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Web 3"><i class="bi bi-plus"></i></a>
-                                    <a href="https://youtu.be/dOYk_HhBgTc" title="More Details"><i class="bi bi-play-fill"></i></a>
+                                    <a href="https://youtu.be/dOYk_HhBgTc" data-gallery="portfolioGallery" class="portfokio-lightbox"  title="More Details"><i class="bi bi-play-fill"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -472,7 +472,7 @@
                                 <p>App</p>
                                 <div class="portfolio-links">
                                     <a href="assets/img/portfolio/destinasi1.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox" title="App 2"><i class="bi bi-plus"></i></a>
-                                    <a href="https://youtu.be/dOYk_HhBgTc" title="More Details"><i class="bi bi-play-fill"></i></a>
+                                    <a href="https://youtu.be/dOYk_HhBgTc" data-gallery="portfolioGallery" class="portfokio-lightbox"  title="More Details"><i class="bi bi-play-fill"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -485,8 +485,8 @@
                                 <h4>Card 2</h4>
                                 <p>Card</p>
                                 <div class="portfolio-links">
-                                    <a href="assets/img/portfolio/destinasi1.jpg.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Card 2"><i class="bi bi-plus"></i></a>
-                                    <a href="https://youtu.be/dOYk_HhBgTc" title="More Details"><i class="bi bi-play-fill"></i></a>
+                                    <a href="assets/img/portfolio/destinasi1.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Card 2"><i class="bi bi-plus"></i></a>
+                                    <a href="https://youtu.be/dOYk_HhBgTc" data-gallery="portfolioGallery" class="portfokio-lightbox"  title="More Details"><i class="bi bi-play-fill"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -500,7 +500,7 @@
                                 <p>Web</p>
                                 <div class="portfolio-links">
                                     <a href="assets/img/portfolio/destinasi1.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Web 2"><i class="bi bi-plus"></i></a>
-                                    <a href="https://youtu.be/dOYk_HhBgTc" title="More Details"><i class="bi bi-play-fill"></i></a>
+                                    <a href="https://youtu.be/dOYk_HhBgTc" data-gallery="portfolioGallery" class="portfokio-lightbox"  title="More Details"><i class="bi bi-play-fill"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -513,8 +513,8 @@
                                 <h4>App 3</h4>
                                 <p>App</p>
                                 <div class="portfolio-links">
-                                    <a href="assets/img/portfolio/portfolio-6.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox" title="App 3"><i class="bi bi-plus"></i></a>
-                                    <a href="https://youtu.be/dOYk_HhBgTc" title="More Details"><i class="bi bi-play-fill"></i></a>
+                                    <a href="assets/img/portfolio/destinasi1.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox" title="App 3"><i class="bi bi-plus"></i></a>
+                                    <a href="https://youtu.be/dOYk_HhBgTc" data-gallery="portfolioGallery" class="portfokio-lightbox"  title="More Details"><i class="bi bi-play-fill"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -527,8 +527,8 @@
                                 <h4>Card 1</h4>
                                 <p>Card</p>
                                 <div class="portfolio-links">
-                                    <a href="assets/img/portfolio/portfolio-7.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Card 1"><i class="bi bi-plus"></i></a>
-                                    <a href="https://youtu.be/dOYk_HhBgTc" title="More Details"><i class="bi bi-play-fill"></i></a>
+                                    <a href="assets/img/portfolio/destinasi1.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Card 1"><i class="bi bi-plus"></i></a>
+                                    <a href="https://youtu.be/dOYk_HhBgTc" data-gallery="portfolioGallery" class="portfokio-lightbox"  title="More Details"><i class="bi bi-play-fill"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -541,8 +541,8 @@
                                 <h4>Card 3</h4>
                                 <p>Card</p>
                                 <div class="portfolio-links">
-                                    <a href="assets/img/portfolio/portfolio-8.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Card 3"><i class="bi bi-plus"></i></a>
-                                    <a href="https://youtu.be/dOYk_HhBgTc" title="More Details"><i class="bi bi-play-fill"></i></a>
+                                    <a href="assets/img/portfolio/destinasi1.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Card 3"><i class="bi bi-plus"></i></a>
+                                    <a href="https://youtu.be/dOYk_HhBgTc" data-gallery="portfolioGallery" class="portfokio-lightbox"  title="More Details"><i class="bi bi-play-fill"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -555,8 +555,8 @@
                                 <h4>Web 3</h4>
                                 <p>Web</p>
                                 <div class="portfolio-links">
-                                    <a href="assets/img/portfolio/portfolio-9.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Web 3"><i class="bi bi-plus"></i></a>
-                                    <a href="https://youtu.be/dOYk_HhBgTc" title="More Details"><i class="bi bi-play-fill"></i></a>
+                                    <a href="assets/img/portfolio/destinasi1.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Web 3"><i class="bi bi-plus"></i></a>
+                                    <a href="https://youtu.be/dOYk_HhBgTc" data-gallery="portfolioGallery" class="portfokio-lightbox"  title="More Details"><i class="bi bi-play-fill"></i></a>
                                 </div>
                             </div>
                         </div>
