@@ -12,7 +12,6 @@
 
     <!-- Favicons -->
     <link href="assets/img/pomi.png" rel="icon">
-    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
@@ -38,6 +37,7 @@
 		header("location:./login.php");
 	}
 ?>
+
     <!-- ======= Header ======= -->
     <header id="header" class="header fixed-top">
         <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
@@ -162,13 +162,44 @@
 
                     <div class="col-lg-6 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="200">
                         <div class="card barcode">
-                            <img src="assets/img/qr-code.jpg" class="card-img-top" alt="...">
+                            <!-- <img src="assets/img/qr-code.jpg" class="card-img-top" alt="..."> -->
+                            <!-- QR CODE -->
+                            <?php
+                                // Include the qrlib file
+                                include 'phpqrcode/qrlib.php';
+                                $text = "http://localhost/family-gathering-pomi/";
+                                
+                                // $path variable store the location where to 
+                                // store image and $file creates directory name
+                                // of the QR code file by using 'uniqid'
+                                // uniqid creates unique id based on microtime
+                                $path = 'images/';
+                                $id = $_SESSION['id'];
+                                // $file = $path.uniqid().".png";
+                                $file = $path.$id.".png";
+                                
+                                // $ecc stores error correction capability('L')
+                                $ecc = 'L';
+                                $pixel_Size =5;
+                                $frame_Size = 1;
+                                
+                                // Generates QR Code and Stores it in directory given
+                                QRcode::png($text, $file, $ecc, $pixel_Size, $frame_Size);
+                                
+                                // Displaying the stored QR code from directory
+                                echo "<center><img src='".$file."'></center>";
+                            ?>
+                            <!-- END QR CODE -->
+
                             <div class="card-body">
                                 <p class="card-text text-center">SCAN ME</p>
                             </div>
                         </div>
                         <!-- <img src="assets/img/qr-code.jpg" class="img-fluid" alt=""> -->
                     </div>
+
+
+                    
 
                 </div>
             </div>
@@ -630,7 +661,7 @@
                 &copy; Copyright <strong><span>WR.NET</span></strong>. All Rights Reserved
             </div>
             <div class="credits">
-                Designed by <a href="https://instagram.com/">WR.NET</a>
+                Designed by <a href="https://instagram.com/wrnet.id">WR.NET</a>
             </div>
         </div>
     </footer>
@@ -682,10 +713,12 @@
     <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
     <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
     <script src="assets/vendor/php-email-form/validate.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
 
     <!-- Template Main JS File -->
     <script src="assets/js/main.js"></script>
-    <script src="assets/js/count-down.js"></script>
+    <script src="assets/js/count-down.js"></script>     
+    <script src="assets/js/qrcode.js"></script>
 
 </body>
 

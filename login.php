@@ -11,12 +11,11 @@
     <!-- Favicons -->
     <link rel="shortcut icon" href="assets/img/pomi.png" type="image/x-icon">
 
-    <!-- Custom styles for this template -->
+    <!-- Custom styles for this template -->  
     <link href="assets/css/signin.css" rel="stylesheet">
 
     <!-- Styles Vendor -->
-    <!-- <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/sign-in/"> -->
-    <link href="https://getbootstrap.com/docs/5.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
 </head>
 
@@ -31,9 +30,10 @@
                 $_SESSION['id'] = $_POST['nip'] ;
                 $_SESSION['nama'] = $_POST['nip'] ;
                 header("location:./index.php");
-                echo 'You have entered valid use name and password';
+                echo "<script>alert('Berhasil login')</script>";
             }else {
-                $msg = 'Wrong id or password';
+                // $msg = 'Wrong id or password';
+                echo "<script>alert('ID atau NIP yang dimasukkan salah')</script>";
             }
         }
     ?>
@@ -43,16 +43,17 @@
         <form action="" method="post">
             <img class="mb-4" src="assets/img/pomi.png" alt="" width="300" height="auto">
             <h1 class="h3 mb-3 fw-normal">Selamat Datang</h1>
+
             <!-- =====Alert===== -->
-            <div id="berhasil" class="alert alert-primary" role="alert">
+            <!-- <div id="berhasil" class="alert alert-primary" role="alert">
                 Login Berhasil
             </div>
 
             <div id="gagal" class="alert alert-danger" role="alert">
                 Coba Cek Kembali NIP Anda
-            </div>
-            
+            </div> -->
             <!-- End Alert -->
+
             <div class="form-floating">
                 <input type="text" class="form-control" name="nip" id="floatingInput" placeholder="Masukkan ID atau NIP anda"  required>
                 <label for="floatingInput">Masukkan ID atau NIP anda</label>
