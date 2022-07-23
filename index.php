@@ -44,7 +44,7 @@
 
             <a href="index.php" class="logo d-flex align-items-center">
                 <img src="assets/img/pomi.png" alt="">
-                <span>Family Gathering POMI</span>
+                <span><img src="assets/img/logo.png" alt=""></span>
             </a>
 
             <nav id="navbar" class="navbar">
