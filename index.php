@@ -139,12 +139,13 @@
                             <h3>Lokasi 1 &emsp;: Ketapang Indah Hotel</h3>
                             <h3>Lokasi 2 &emsp;: Illira Hotel</h3>
                             <hr>
-                            <h3>Waktu </h3>
                             <h3>Batch 1 | Banyuwangi, 13-14 Agustus 2022</h3>
                             <hr>
-                            <p>Mengingat rangkaian acara sudah dimulai sejak keberangkatan, menghimbau untuk seluruh peserta turut serta menaiki transportasi bus yang telah disediakan panitia demi kelancaran bersama.</p>
-                            <p>Panitia tidak menyediakan kompensasi bagi peserta yang menggunakan kendaraan pribadi.</p>
-                            <p>Seluruh peserta wajib mengikuti acara Employee Outbond sebagai salah satu syarat pengundian Grand Prize & Door Prize.</p>
+                            <ul>
+                                <li>Mengingat rangkaian acara sudah dimulai sejak keberangkatan, menghimbau untuk seluruh peserta turut serta menaiki transportasi bus yang telah disediakan panitia demi kelancaran bersama.</li>
+                                <li>Panitia tidak menyediakan kompensasi bagi peserta yang menggunakan kendaraan pribadi.</li>
+                                <li>Seluruh peserta wajib mengikuti acara Employee Outbond sebagai salah satu syarat pengundian Grand Prize & Door Prize.</li>
+                            </ul>
                         </div>
                     </div>
 
@@ -173,7 +174,7 @@
 
                 <div class="row">
                     <div class="col-lg-6">
-                        <div class="col-lg-6 rundown-img" data-aos="zoom-out" data-aos-delay="200">
+                        <div class="col-lg-12 rundown-img" data-aos="zoom-out" data-aos-delay="200">
                             <img src="assets/img/destinasi/hotel-ketapang.jpg" class="img-fluid" alt="">
                         </div>
                     </div>
@@ -349,7 +350,7 @@
                     </div>
 
                     <div class="col-lg-6">
-                        <div class="col-lg-6 rundown-img" data-aos="zoom-out" data-aos-delay="200">
+                        <div class="col-lg-12 rundown-img" data-aos="zoom-out" data-aos-delay="200">
                             <img src="assets/img/destinasi/agustusan.jpg" class="img-fluid" alt="">
                         </div>
                     </div>
@@ -575,7 +576,7 @@
 
                 <div class="row gy-4">
 
-                    <div class="col-lg-3 col-md-3">
+                    <div class="col-lg-3 col-md-6 col-xs-6">
                         <div class="count-box">
                             <i class="bi bi-calendar-day"></i>
                             <div>
@@ -585,7 +586,7 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-3 col-md-3">
+                    <div class="col-lg-3 col-md-6 col-xs-6">
                         <div class="count-box">
                             <i class="bi bi-clock" style="color: #ee6c20;"></i>
                             <div>
@@ -595,7 +596,7 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-3 col-md-3">
+                    <div class="col-lg-3 col-md-6 col-xs-6">
                         <div class="count-box">
                             <i class="bi bi-hourglass-split" style="color: #15be56;"></i>
                             <div>
@@ -605,7 +606,7 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-3 col-md-3">
+                    <div class="col-lg-3 col-md-6 col-xs-6">
                         <div class="count-box">
                             <i class="bi bi-stopwatch" style="color: #bb0852;"></i>
                             <div>
