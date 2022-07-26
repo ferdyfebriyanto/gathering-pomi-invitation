@@ -74,7 +74,7 @@
                 </div>
                 <div class="col-lg-6 d-flex flex-column justify-content-center">
                     <h1 data-aos="fade-up"> Selamat Datang, <?php echo $_SESSION['id']; ?></h1>
-                    <h2 data-aos="fade-up" data-aos-delay="400">Di Family Gathering POMI</h2>
+                    <h2 data-aos="fade-up" data-aos-delay="400">Di Family Gathering POMI</h2>   
                     <div data-aos="fade-up" data-aos-delay="600">
                         <div class="text-center text-lg-start">
                             <a href="#about" class="btn-get-started scrollto d-inline-flex align-items-center justify-content-center align-self-center">
@@ -152,10 +152,17 @@
 
                     <div class="col-lg-6 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="200">
                         <div class="content">
-                            <h3>Sejarah</h3>
-                            <h2>Sekilas Tentang Paiton</h2>
-                            <p> Berdiri sejak 1994, PT Paiton Energy terlibat dalam bidang power plant dan sekarang memiliki dan juga mengoperasikan tiga pembangit listrik batu bara di pembangkit listrik Paiton di Probolinggo, Jawa Timur. Kami menjadi yang pertama dan salah satu Penghasil Daya Independen terbesar yang beroperasi di Indonesia. Kami menghasilkan sekitar 13,500 GWh listrik per tahun, yang menyumbangkan sekitar 10% dari konsumsi listrik tahunan di pulau Jawa</p>
-                            <p>PT Paiton terus berusaha dan memberikan yang terbaik dalam memproduksi dan mengutamakan kesinambungan yang juga bertanggung jawab untuk lingkungan dengan prosesnya. Kami terus membuat usaha tanpa batas untuk dapat diandalkan, berkelanjutan, profesional, penghasil daya ramah lingkungan yang memberikan energi besar untuk negara.</p>
+                            <h2>Family Gathering - Employee Outbond</h2>
+                            <hr>
+                            <h3>Lokasi 1 &emsp;: Ketapang Indah Hotel</h3>
+                            <h3>Lokasi 2 &emsp;: Illira Hotel</h3>
+                            <hr>
+                            <h3>Waktu </h3>
+                            <h3>Batch 1 | Banyuwangi, 13-14 Agustus 2022</h3>
+                            <hr>
+                            <p>Mengingat rangkaian acara sudah dimulai sejak keberangkatan, menghimbau untuk seluruh peserta turut serta menaiki transportasi bus yang telah disediakan panitia demi kelancaran bersama.</p>
+                            <p>Panitia tidak menyediakan kompensasi bagi peserta yang menggunakan kendaraan pribadi.</p>
+                            <p>Seluruh peserta wajib mengikuti acara Employee Outbond sebagai salah satu syarat pengundian Grand Prize & Door Prize.</p>
                         </div>
                     </div>
 
@@ -213,7 +220,7 @@
 
                 <header class="section-header">
                     <p>Hari Ke-1</p>
-                    <h2>1 Juli 2022</h2>
+                    <h2>13 Agustus 2022</h2>
                 </header>
 
                 <div class="row">
@@ -231,13 +238,13 @@
                             <div class="accordion-item">
                                 <h2 class="accordion-header">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#rundown2-content-1">
-                    Menuju Lokasi Kegiatan
-                  </button>
+                                        07.00 -  12.00 WIB ~ &ensp;  <b> Depart From Paiton to Hotel Banyuwangi</b>
+                                    </button>
                                 </h2>
                                 <div id="rundown2-content-1" class="accordion-collapse collapse" data-bs-parent="#rundownlist2">
                                     <div class="accordion-body">
-                                        Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in
-                                        cursus turpis massa tincidunt dui.
+                                        Bagi peserta yang berangkat secara rombongan,wajib berkumpul di POH jam 07.00 WIB untuk berangkat bersama sama menggunakan moda transportasi Bus. <br><br>
+                                        Sedangkan bagi peserta yang menggunakan mobil pribadi wajib sudah tiba dihotel maksimal pukul 13.00 WIB 
                                     </div>
                                 </div>
                             </div>
@@ -245,12 +252,14 @@
                             <div class="accordion-item">
                                 <h2 class="accordion-header">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#rundown2-content-2">
-                    Melakukan Pendaftaran
-                  </button>
+                                        12.00 - 14.00 WIB ~ &ensp;  <b> Lunch & Check In</b>
+                                    </button>
                                 </h2>
                                 <div id="rundown2-content-2" class="accordion-collapse collapse" data-bs-parent="#rundownlist2">
                                     <div class="accordion-body">
-                                        Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in est ante in. Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl suscipit adipiscing bibendum est. Purus gravida quis blandit turpis cursus in
+                                        Sebelum menuju hotel , peserta yang naik bus atau mobil pribadi akan diarahkan untuk makan siang terlebih dahulu ke Watu Dodol Restaurant. <br><br> 
+                                        Setiap karyawan atau perwakilan dari keluarga karyawan yang sudah melakukan registrasi di resto , berkesempatan mengambil undian di fishbowl dengan hadiah berupa Voucher Belanja. <br><br>
+                                        Setiba di hotel, peserta akan diarahkan untuk melakukan registrasi dengan scan barcode dan mendapatkan hampers.
                                     </div>
                                 </div>
                             </div>
@@ -258,13 +267,14 @@
                             <div class="accordion-item">
                                 <h2 class="accordion-header">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#rundown2-content-3">
-                    Makan Siang
-                  </button>
+                                    14.00 - 16.30 WIB ~ &ensp;  <b> Employee Outbound + Fun Games for Kids</b>
+                                    </button>
                                 </h2>
                                 <div id="rundown2-content-3" class="accordion-collapse collapse" data-bs-parent="#rundownlist2">
                                     <div class="accordion-body">
-                                        Laoreet sit amet cursus sit amet dictum sit amet justo. Mauris vitae ultricies leo integer malesuada nunc vel. Tincidunt eget nullam non nisi est sit amet. Turpis nunc eget lorem dolor sed. Ut venenatis tellus in metus vulputate eu scelerisque. Pellentesque
-                                        diam volutpat commodo sed egestas egestas fringilla phasellus faucibus. Nibh tellus molestie nunc non blandit massa enim nec.
+                                        Sesi ini semuanya dilakukan di Hotel Ketapang, bagi peserta yang stay di Hotel Illira, setelah check-in diarahkan menuju Hotel Ketapang. <br><br>
+                                        Sebelum mengikuti outbound maupun games, dipastikan peserta sudah melakukan registrasi terlebih dahulu dan memiliki stampcard games. <br><br>
+                                        Peserta diminta untuk mengikuti games yang ada di Hotel Ketapang dan mengumpulkan point sebanyak mungkin. <br><br>
                                     </div>
                                 </div>
                             </div>
@@ -272,13 +282,12 @@
                             <div class="accordion-item">
                                 <h2 class="accordion-header">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#rundown2-content-4">
-                    Foto Bersama
-                  </button>
+                                        16.30 - 18.30 WIB ~ &ensp; <b>Free Time & Rest Time</b>
+                                    </button>
                                 </h2>
                                 <div id="rundown2-content-4" class="accordion-collapse collapse" data-bs-parent="#rundownlist2">
                                     <div class="accordion-body">
-                                        Laoreet sit amet cursus sit amet dictum sit amet justo. Mauris vitae ultricies leo integer malesuada nunc vel. Tincidunt eget nullam non nisi est sit amet. Turpis nunc eget lorem dolor sed. Ut venenatis tellus in metus vulputate eu scelerisque. Pellentesque
-                                        diam volutpat commodo sed egestas egestas fringilla phasellus faucibus. Nibh tellus molestie nunc non blandit massa enim nec.
+                                        Peserta diberikan waktu luang untuk beristirahat sampai pukul 18.30 WIB.
                                     </div>
                                 </div>
                             </div>
@@ -286,13 +295,25 @@
                             <div class="accordion-item">
                                 <h2 class="accordion-header">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#rundown2-content-5">
-                    Persiapan Pulang
-                  </button>
+                                        18.30 - 22.00 WIB ~ &ensp; <b>Gala Dinner</b>
+                                    </button>
                                 </h2>
                                 <div id="rundown2-content-5" class="accordion-collapse collapse" data-bs-parent="#rundownlist2">
                                     <div class="accordion-body">
-                                        Laoreet sit amet cursus sit amet dictum sit amet justo. Mauris vitae ultricies leo integer malesuada nunc vel. Tincidunt eget nullam non nisi est sit amet. Turpis nunc eget lorem dolor sed. Ut venenatis tellus in metus vulputate eu scelerisque. Pellentesque
-                                        diam volutpat commodo sed egestas egestas fringilla phasellus faucibus. Nibh tellus molestie nunc non blandit massa enim nec.
+                                        Pada malam harinya, peserta dan keluarga akan menikmati moment gala dinner di area outdoor Hotel Ketapang.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#rundown2-content-11">
+                                        22.00 WIB - Selesai ~ &ensp; <b>Rest Time</b>
+                                    </button>
+                                </h2>
+                                <div id="rundown2-content-11" class="accordion-collapse collapse" data-bs-parent="#rundownlist2">
+                                    <div class="accordion-body">
+                                        Peserta diberikan waktu untuk beristirahat.
                                     </div>
                                 </div>
                             </div>
@@ -314,7 +335,7 @@
 
                 <header class="section-header">
                     <p>Hari Ke-2</p>
-                    <h2>2 Juli 2022</h2>
+                    <h2>14 Agustus 2022</h2>
 
 
                 </header>
@@ -329,13 +350,12 @@
                             <div class="accordion-item">
                                 <h2 class="accordion-header">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#rundown2-content-6">
-                    Menuju Lokasi Kegiatan
-                  </button>
+                                        06.00 - 09.00 WIB ~ &ensp; <b>Breakfast</b>
+                                    </button>
                                 </h2>
                                 <div id="rundown2-content-6" class="accordion-collapse collapse" data-bs-parent="#rundownlist2">
                                     <div class="accordion-body">
-                                        Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in
-                                        cursus turpis massa tincidunt dui.
+                                        Karyawan dan keluarga bisa menikmati sarapan pagi sambil istirahat sejenak untuk persiapan Perlombaan Agustusan dan Treasure HSunt 
                                     </div>
                                 </div>
                             </div>
@@ -343,12 +363,12 @@
                             <div class="accordion-item">
                                 <h2 class="accordion-header">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#rundown2-content-7">
-                    Melakukan Pendaftaran
-                  </button>
+                                        09.00 - 11.30 WIB ~ &ensp; <b>Family Games (Lomba Agustusan) + Treasure Hunt</b>
+                                    </button>
                                 </h2>
                                 <div id="rundown2-content-7" class="accordion-collapse collapse" data-bs-parent="#rundownlist2">
                                     <div class="accordion-body">
-                                        Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in est ante in. Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl suscipit adipiscing bibendum est. Purus gravida quis blandit turpis cursus in
+                                        Tepat Pukul 09.00 WIB, peserta diarahkan kembali menuju area outdoor Hotel Ketapang untuk mengikuti game khas 17-an. Game bisa dimainkan oleh anak anak maupun bersama keluarga.
                                     </div>
                                 </div>
                             </div>
@@ -356,13 +376,12 @@
                             <div class="accordion-item">
                                 <h2 class="accordion-header">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#rundown2-content-8">
-                    Makan Siang
-                  </button>
+                                        11.30 - 12.00 WIB ~ &ensp; <b>Prepare Back To Paiton</b>
+                                    </button>
                                 </h2>
                                 <div id="rundown2-content-8" class="accordion-collapse collapse" data-bs-parent="#rundownlist2">
                                     <div class="accordion-body">
-                                        Laoreet sit amet cursus sit amet dictum sit amet justo. Mauris vitae ultricies leo integer malesuada nunc vel. Tincidunt eget nullam non nisi est sit amet. Turpis nunc eget lorem dolor sed. Ut venenatis tellus in metus vulputate eu scelerisque. Pellentesque
-                                        diam volutpat commodo sed egestas egestas fringilla phasellus faucibus. Nibh tellus molestie nunc non blandit massa enim nec.
+                                        Maksimal jam 11.30 WIB seluruh kegiatan akan di closed. Agar peserta bisa prepare untuk checkout. 
                                     </div>
                                 </div>
                             </div>
@@ -370,27 +389,12 @@
                             <div class="accordion-item">
                                 <h2 class="accordion-header">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#rundown2-content-9">
-                    Foto Bersama
-                  </button>
+                                        12.00 - 17.00 WIB ~ &ensp; <b>Check Out Hotel & Back To Paiton</b>
+                                    </button>
                                 </h2>
                                 <div id="rundown2-content-9" class="accordion-collapse collapse" data-bs-parent="#rundownlist2">
                                     <div class="accordion-body">
-                                        Laoreet sit amet cursus sit amet dictum sit amet justo. Mauris vitae ultricies leo integer malesuada nunc vel. Tincidunt eget nullam non nisi est sit amet. Turpis nunc eget lorem dolor sed. Ut venenatis tellus in metus vulputate eu scelerisque. Pellentesque
-                                        diam volutpat commodo sed egestas egestas fringilla phasellus faucibus. Nibh tellus molestie nunc non blandit massa enim nec.
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="accordion-item">
-                                <h2 class="accordion-header">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#rundown2-content-10">
-                    Persiapan Pulang
-                  </button>
-                                </h2>
-                                <div id="rundown2-content-10" class="accordion-collapse collapse" data-bs-parent="#rundownlist2">
-                                    <div class="accordion-body">
-                                        Laoreet sit amet cursus sit amet dictum sit amet justo. Mauris vitae ultricies leo integer malesuada nunc vel. Tincidunt eget nullam non nisi est sit amet. Turpis nunc eget lorem dolor sed. Ut venenatis tellus in metus vulputate eu scelerisque. Pellentesque
-                                        diam volutpat commodo sed egestas egestas fringilla phasellus faucibus. Nibh tellus molestie nunc non blandit massa enim nec.
+                                        Selesai checkout peserta akan mendapatkan lunch box dan paket oleh oleh khas Banyuwangi. Setelah itu perjalanan kembali ke Paiton.
                                     </div>
                                 </div>
                             </div>
@@ -640,14 +644,14 @@
                         <h4>Powered By</h4>
                         <div class="row  gy-4">
                             <div class="col-lg-3 col-md-2 col-12 col-12">
-                                <img src="assets/img/logo-vendor/pitoe.png" alt="" class="f-logo">
+                                <img src="assets/img/logo-vendor/logo-vendor.png" alt="" class="f-logo">
                             </div>
-                            <div class="col-lg-3 col-md-3 col-12 col-12">
+                            <!-- <div class="col-lg-3 col-md-3 col-12 col-12">
                                 <img src="assets/img/logo-vendor/pitoe-event.png" alt="" class="f-logo">
                             </div>
                             <div class="col-lg-3 col-md-2 col-12 col-12">
                                 <img src="assets/img/logo-vendor/wrnet.png" alt="" class="f-logo">
-                            </div>
+                            </div> -->
                         </div>
                     </div>
 
@@ -669,37 +673,11 @@
     <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
     <!-- ======= Background Audio ======= -->
-    <!-- style="display: scroll; position: fixed; right: 10px; bottom: 60px; width:50px" -->
     <div class="audio-bg" style="display: scroll; position: fixed; right: 10px; bottom: 60px; width:50px">
         <audio hidden controls autoplay loop id="myAudio">
             <source src="assets/audio/bg-cinematic.mp3" type="audio/mpeg">
         </audio>
-        <a href="#" onClick="playMyAudio()" class="btn btn-lg btn-primary"><i class="bi bi-volume-up" style="color: white;"></i></a>
-        <!-- <button onClick="playMyAudio()"><i class="bi bi-play-circle-fill"></i></button> -->
-        <!-- <p id="audioStatus">Click The Play Button</p> -->
-        <script>
-            var status = 0;
-            $(document).ready(function(){
-                document.getElementById("myAudio").play();
-
-            });
-            function playMyAudio() {
-                if (status == 0) {
-                    status = 1;
-                    document.getElementById("myAudio").pause();
-                    // document.getElementById("audioStatus").innerHTML = "Audio Paused";
-                    // document.getElementById(iconAudio).className=="bi bi-volume-mute";
-                } else {
-                    status = 0;
-                    document.getElementById("myAudio").play();
-                    // document.getElementById("audioStatus").innerHTML = "Audio is Playing";
-                    // document.getElementById(iconAudio).className=="bi bi-volume-up";
-                } 
-                
-                // if((e.which || e.keyCode) == 116) e.preventDefault();
-            }
-
-        </script>
+        <a href="#" onClick="playMyAudio()" class="btn btn-lg btn-primary"><i id="icon1" onclick="change('icon1')" class="bi bi-volume-up" style="color: white;" aria-hidden="true"></i></a>
     </div>
 
     <!-- End Background Audio -->
@@ -718,6 +696,7 @@
     <script src="assets/js/main.js"></script>
     <script src="assets/js/count-down.js"></script>     
     <script src="assets/js/qrcode.js"></script>
+    <script src="assets/js/bg-audio.js"></script>
 
 </body>
 
