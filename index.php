@@ -74,7 +74,41 @@
                 </div>
                 <div class="col-lg-6 d-flex flex-column justify-content-center">
                     <h1 data-aos="fade-up"> Selamat Datang, <?php echo $_SESSION['id']; ?></h1>
-                    <h2 data-aos="fade-up" data-aos-delay="400">Di Family Gathering POMI</h2>   
+                    <h2 data-aos="fade-up" data-aos-delay="400">Di Family Gathering POMI</h2> 
+                            <div class="card barcode">
+                                <!-- <img src="assets/img/qr-code.jpg" class="card-img-top" alt="..."> -->
+                                <!-- QR CODE -->
+                                <?php
+                                    // Include the qrlib file
+                                    include 'phpqrcode/qrlib.php';
+                                    $text = "http://localhost/family-gathering-pomi/";
+                                    
+                                    // $path variable store the location where to 
+                                    // store image and $file creates directory name
+                                    // of the QR code file by using 'uniqid'
+                                    // uniqid creates unique id based on microtime
+                                    $path = 'images/';
+                                    $id = $_SESSION['id'];
+                                    // $file = $path.uniqid().".png";
+                                    $file = $path.$id.".png";
+                                    
+                                    // $ecc stores error correction capability('L')
+                                    $ecc = 'L';
+                                    $pixel_Size =5;
+                                    $frame_Size = 1;
+                                    
+                                    // Generates QR Code and Stores it in directory given
+                                    QRcode::png($text, $file, $ecc, $pixel_Size, $frame_Size);
+                                    
+                                    // Displaying the stored QR code from directory
+                                    echo "<center><img src='".$file."'></center>";
+                                ?>
+                                <!-- END QR CODE -->
+
+                                <!-- <div class="card-body">
+                                    <p class="card-text text-center">SCAN ME</p>
+                                </div> -->
+                            </div>  
                     <div data-aos="fade-up" data-aos-delay="600">
                         <div class="text-center text-lg-start">
                             <a href="#about" class="btn-get-started scrollto d-inline-flex align-items-center justify-content-center align-self-center">
@@ -167,41 +201,7 @@
                     </div>
 
                     <div class="col-lg-6 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="200">
-                        <div class="card barcode">
-                            <!-- <img src="assets/img/qr-code.jpg" class="card-img-top" alt="..."> -->
-                            <!-- QR CODE -->
-                            <?php
-                                // Include the qrlib file
-                                include 'phpqrcode/qrlib.php';
-                                $text = "http://localhost/family-gathering-pomi/";
-                                
-                                // $path variable store the location where to 
-                                // store image and $file creates directory name
-                                // of the QR code file by using 'uniqid'
-                                // uniqid creates unique id based on microtime
-                                $path = 'images/';
-                                $id = $_SESSION['id'];
-                                // $file = $path.uniqid().".png";
-                                $file = $path.$id.".png";
-                                
-                                // $ecc stores error correction capability('L')
-                                $ecc = 'L';
-                                $pixel_Size =5;
-                                $frame_Size = 1;
-                                
-                                // Generates QR Code and Stores it in directory given
-                                QRcode::png($text, $file, $ecc, $pixel_Size, $frame_Size);
-                                
-                                // Displaying the stored QR code from directory
-                                echo "<center><img src='".$file."'></center>";
-                            ?>
-                            <!-- END QR CODE -->
-
-                            <div class="card-body">
-                                <p class="card-text text-center">SCAN ME</p>
-                            </div>
-                        </div>
-                        <!-- <img src="assets/img/qr-code.jpg" class="img-fluid" alt=""> -->
+                        
                     </div>
 
 

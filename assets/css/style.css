@@ -669,21 +669,21 @@ section {
     transform: translateX(5px);
 }
 
-.about .barcode {
+.hero .barcode {
     max-width: 210px;
     /* background-color: white; */
     /* padding: 20px; */
     /* margin: 10%; */
     /* tambahan */
     display: block;
-    margin-left: auto;
+    /* margin-left: auto; */
     margin-right: auto;
-    margin-top: auto;
+    margin-top: 20px;
     border-radius: 10px;
     box-shadow: 0px 0 30px #00000094;
 }
 
-.about .barcode p {
+.hero .barcode p {
     text-align: center;
     font-size: 30px;
     font-weight: 700;
@@ -691,8 +691,10 @@ section {
 }
 
 @media (max-width: 991px) {
-    .about .barcode {
+    .hero .barcode {
         margin-top: 20px;
+        margin-left: auto;
+        margin-top: auto;
     }
 }
 
