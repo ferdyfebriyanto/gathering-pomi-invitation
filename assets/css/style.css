@@ -692,7 +692,7 @@ section {
 
 @media (max-width: 991px) {
     .hero .barcode {
-        margin-top: 20px;
+        margin-top: auto;
         margin-left: auto;
         margin-top: auto;
     }
