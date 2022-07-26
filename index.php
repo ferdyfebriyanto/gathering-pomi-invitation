@@ -226,7 +226,7 @@
                 <div class="row">
                     <div class="col-lg-6">
                         <div class="col-lg-6 rundown-img" data-aos="zoom-out" data-aos-delay="200">
-                            <img src="assets/img/pomi.png" class="img-fluid" alt="">
+                            <img src="assets/img/destinasi/hotel-ketapang.jpg" class="img-fluid" alt="">
                         </div>
                     </div>
 
@@ -238,7 +238,7 @@
                             <div class="accordion-item">
                                 <h2 class="accordion-header">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#rundown2-content-1">
-                                        07.00 -  12.00 WIB ~ &ensp;  <b> Depart From Paiton to Hotel Banyuwangi</b>
+                                        Depart From Paiton to Hotel Banyuwangi
                                     </button>
                                 </h2>
                                 <div id="rundown2-content-1" class="accordion-collapse collapse" data-bs-parent="#rundownlist2">
@@ -252,7 +252,7 @@
                             <div class="accordion-item">
                                 <h2 class="accordion-header">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#rundown2-content-2">
-                                        12.00 - 14.00 WIB ~ &ensp;  <b> Lunch & Check In</b>
+                                        Lunch & Check In
                                     </button>
                                 </h2>
                                 <div id="rundown2-content-2" class="accordion-collapse collapse" data-bs-parent="#rundownlist2">
@@ -267,7 +267,7 @@
                             <div class="accordion-item">
                                 <h2 class="accordion-header">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#rundown2-content-3">
-                                    14.00 - 16.30 WIB ~ &ensp;  <b> Employee Outbound + Fun Games for Kids</b>
+                                        Employee Outbound + Fun Games for Kids
                                     </button>
                                 </h2>
                                 <div id="rundown2-content-3" class="accordion-collapse collapse" data-bs-parent="#rundownlist2">
@@ -282,7 +282,7 @@
                             <div class="accordion-item">
                                 <h2 class="accordion-header">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#rundown2-content-4">
-                                        16.30 - 18.30 WIB ~ &ensp; <b>Free Time & Rest Time</b>
+                                        Free Time & Rest Time
                                     </button>
                                 </h2>
                                 <div id="rundown2-content-4" class="accordion-collapse collapse" data-bs-parent="#rundownlist2">
@@ -295,7 +295,7 @@
                             <div class="accordion-item">
                                 <h2 class="accordion-header">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#rundown2-content-5">
-                                        18.30 - 22.00 WIB ~ &ensp; <b>Gala Dinner</b>
+                                        Gala Dinner
                                     </button>
                                 </h2>
                                 <div id="rundown2-content-5" class="accordion-collapse collapse" data-bs-parent="#rundownlist2">
@@ -308,7 +308,7 @@
                             <div class="accordion-item">
                                 <h2 class="accordion-header">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#rundown2-content-11">
-                                        22.00 WIB - Selesai ~ &ensp; <b>Rest Time</b>
+                                        Rest Time
                                     </button>
                                 </h2>
                                 <div id="rundown2-content-11" class="accordion-collapse collapse" data-bs-parent="#rundownlist2">
@@ -336,8 +336,6 @@
                 <header class="section-header">
                     <p>Hari Ke-2</p>
                     <h2>14 Agustus 2022</h2>
-
-
                 </header>
 
                 <div class="row">
@@ -404,7 +402,7 @@
 
                     <div class="col-lg-6">
                         <div class="col-lg-6 rundown-img" data-aos="zoom-out" data-aos-delay="200">
-                            <img src="assets/img/pomi.png" class="img-fluid" alt="">
+                            <img src="assets/img/destinasi/agustusan.jpg" class="img-fluid" alt="">
                         </div>
                     </div>
 
