@@ -232,8 +232,13 @@ section {
 }
 
 @media(max-width: 768px) {
-    .header .logo span {
-        visibility: hidden;
+    .header .logo img {
+        max-height: 80px;
+        margin-right: 2px;
+    }
+    .header .logo span img {
+        /* visibility: hidden; */
+        max-width: 200px;
     }
 }
 
@@ -735,6 +740,13 @@ section {
     background-image: url('../img/landing-page/footer-bg.jpg');
     background-size: cover;
     background-size: 150% auto;
+}
+
+@media(max-width:768px) {
+    .counts {
+        background-size: 100% right no-repeat;
+        background-size: auto;
+    }
 }
 
 .counts .count-box {
@@ -2589,12 +2601,6 @@ section {
     color: #ebebeb;
 }
 
-@media(max-width:768px) {
-    .footer .footer-top .footer-links h4 {
-        text-align: center;
-    }
-}
-
 .footer .footer-top .footer-contact p {
     line-height: 26px;
 }
@@ -2615,4 +2621,14 @@ section {
 .f-logo {
     max-height: 50px;
     margin-right: 10px;
+}
+
+@media(max-width: 1024px) {}
+
+@media(max-width: 991px) {}
+
+@media(max-width:768px) {
+    .footer .footer-top .footer-links h4 {
+        text-align: center;
+    }
 }
