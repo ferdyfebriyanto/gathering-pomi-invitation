@@ -125,58 +125,6 @@
     </section>
     <!-- End Hero -->
 
-    <!-- ======= Count Down Section ======= -->
-    <section id="counts" class="counts">
-        <div class="container" data-aos="fade-up">
-
-            <div class="row gy-4">
-
-                <div class="col-lg-3 col-md-6">
-                    <div class="count-box">
-                        <i class="bi bi-calendar-day"></i>
-                        <div>
-                            <span class="purecounter" id="days"></span>
-                            <p>Hari</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-6">
-                    <div class="count-box">
-                        <i class="bi bi-clock" style="color: #ee6c20;"></i>
-                        <div>
-                            <span class="purecounter" id="hours"></span>
-                            <p>Jam</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-6">
-                    <div class="count-box">
-                        <i class="bi bi-hourglass-split" style="color: #15be56;"></i>
-                        <div>
-                            <span class="purecounter" id="minutes"></span>
-                            <p>Menit</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-6">
-                    <div class="count-box">
-                        <i class="bi bi-stopwatch" style="color: #bb0852;"></i>
-                        <div>
-                            <span class="purecounter" id="seconds"></span>
-                            <p>Detik</p>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-
-        </div>
-    </section>
-    <!-- End Count Down Section -->
-
     <main id="main">
         <!-- ======= About Section ======= -->
         <section id="about" class="about">
@@ -201,7 +149,7 @@
                     </div>
 
                     <div class="col-lg-6 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="200">
-                        
+                        <img src="assets/img/poster.jpg" class="img-fluid" alt="">
                     </div>
 
 
@@ -238,7 +186,7 @@
                             <div class="accordion-item">
                                 <h2 class="accordion-header">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#rundown2-content-1">
-                                        Depart From Paiton to Hotel Banyuwangi
+                                        Depart From Paiton to Hotel Banyuwangi (07.00-12.00 WIB)
                                     </button>
                                 </h2>
                                 <div id="rundown2-content-1" class="accordion-collapse collapse" data-bs-parent="#rundownlist2">
@@ -252,7 +200,7 @@
                             <div class="accordion-item">
                                 <h2 class="accordion-header">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#rundown2-content-2">
-                                        Lunch & Check In
+                                        Lunch & Check In (12.00-14.00 WIB)
                                     </button>
                                 </h2>
                                 <div id="rundown2-content-2" class="accordion-collapse collapse" data-bs-parent="#rundownlist2">
@@ -267,7 +215,7 @@
                             <div class="accordion-item">
                                 <h2 class="accordion-header">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#rundown2-content-3">
-                                        Employee Outbound + Fun Games for Kids
+                                        Employee Outbound + Fun Games for Kids (14.00-16.30 WIB)
                                     </button>
                                 </h2>
                                 <div id="rundown2-content-3" class="accordion-collapse collapse" data-bs-parent="#rundownlist2">
@@ -282,7 +230,7 @@
                             <div class="accordion-item">
                                 <h2 class="accordion-header">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#rundown2-content-4">
-                                        Free Time & Rest Time
+                                        Free Time & Rest Time (16.30-18.30 WIB)
                                     </button>
                                 </h2>
                                 <div id="rundown2-content-4" class="accordion-collapse collapse" data-bs-parent="#rundownlist2">
@@ -295,7 +243,7 @@
                             <div class="accordion-item">
                                 <h2 class="accordion-header">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#rundown2-content-5">
-                                        Gala Dinner
+                                        Gala Dinner (18.30-22.00 WIB)
                                     </button>
                                 </h2>
                                 <div id="rundown2-content-5" class="accordion-collapse collapse" data-bs-parent="#rundownlist2">
@@ -308,12 +256,12 @@
                             <div class="accordion-item">
                                 <h2 class="accordion-header">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#rundown2-content-11">
-                                        Rest Time
+                                        Rest Time (22.00 WIB - Selesai)
                                     </button>
                                 </h2>
                                 <div id="rundown2-content-11" class="accordion-collapse collapse" data-bs-parent="#rundownlist2">
                                     <div class="accordion-body">
-                                        Peserta diberikan waktu untuk beristirahat.
+                                        Peserta diberikan waktu untuk beristirahat, untuk mempersiapkan hari esok.
                                     </div>
                                 </div>
                             </div>
@@ -348,7 +296,7 @@
                             <div class="accordion-item">
                                 <h2 class="accordion-header">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#rundown2-content-6">
-                                        06.00 - 09.00 WIB ~ &ensp; <b>Breakfast</b>
+                                        Breakfast (06.00 - 09.00 WIB)
                                     </button>
                                 </h2>
                                 <div id="rundown2-content-6" class="accordion-collapse collapse" data-bs-parent="#rundownlist2">
@@ -361,7 +309,7 @@
                             <div class="accordion-item">
                                 <h2 class="accordion-header">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#rundown2-content-7">
-                                        09.00 - 11.30 WIB ~ &ensp; <b>Family Games (Lomba Agustusan) + Treasure Hunt</b>
+                                        Family Games (Lomba Agustusan) + Treasure Hunt (09.00 - 11.30 WIB)
                                     </button>
                                 </h2>
                                 <div id="rundown2-content-7" class="accordion-collapse collapse" data-bs-parent="#rundownlist2">
@@ -374,7 +322,7 @@
                             <div class="accordion-item">
                                 <h2 class="accordion-header">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#rundown2-content-8">
-                                        11.30 - 12.00 WIB ~ &ensp; <b>Prepare Back To Paiton</b>
+                                        Prepare Back To Paiton (11.30 - 12.00 WIB)
                                     </button>
                                 </h2>
                                 <div id="rundown2-content-8" class="accordion-collapse collapse" data-bs-parent="#rundownlist2">
@@ -387,7 +335,7 @@
                             <div class="accordion-item">
                                 <h2 class="accordion-header">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#rundown2-content-9">
-                                        12.00 - 17.00 WIB ~ &ensp; <b>Check Out Hotel & Back To Paiton</b>
+                                        Check Out Hotel & Back To Paiton (12.00 - 17.00 WIB)
                                     </button>
                                 </h2>
                                 <div id="rundown2-content-9" class="accordion-collapse collapse" data-bs-parent="#rundownlist2">
@@ -620,6 +568,58 @@
 
     </main>
     <!-- End #main -->
+
+                <!-- ======= Count Down Section ======= -->
+                <section id="counts" class="counts">
+            <div class="container" data-aos="fade-up">
+
+                <div class="row gy-4">
+
+                    <div class="col-lg-3 col-md-3">
+                        <div class="count-box">
+                            <i class="bi bi-calendar-day"></i>
+                            <div>
+                                <span class="purecounter" id="days"></span>
+                                <p>Hari</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-3">
+                        <div class="count-box">
+                            <i class="bi bi-clock" style="color: #ee6c20;"></i>
+                            <div>
+                                <span class="purecounter" id="hours"></span>
+                                <p>Jam</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-3">
+                        <div class="count-box">
+                            <i class="bi bi-hourglass-split" style="color: #15be56;"></i>
+                            <div>
+                                <span class="purecounter" id="minutes"></span>
+                                <p>Menit</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-3">
+                        <div class="count-box">
+                            <i class="bi bi-stopwatch" style="color: #bb0852;"></i>
+                            <div>
+                                <span class="purecounter" id="seconds"></span>
+                                <p>Detik</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+        <!-- End Count Down Section -->
 
     <!-- ======= Footer ======= -->
     <footer id="footer" class="footer">

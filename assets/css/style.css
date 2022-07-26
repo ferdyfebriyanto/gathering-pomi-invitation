@@ -550,8 +550,26 @@ section {
     text-align: right;
 }
 
+.hero .barcode {
+    max-width: 210px;
+    /* background-color: white; */
+    /* padding: 20px; */
+    /* margin: 10%; */
+    /* tambahan */
+    display: block;
+    /* margin-left: auto; */
+    margin-right: auto;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0 30px #00000094;
+}
 
-/* tambahan */
+.hero .barcode p {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    color: #262476;
+}
 
 .hero .hero-img img {
     transition: all 0.3s;
@@ -563,6 +581,10 @@ section {
     transform: scale(1.0) rotate(5deg);
 }
 
+.hero .barcode img {
+    border-radius: 10px;
+}
+
 @media (min-width: 1024px) {
     .hero {
         background-attachment: fixed;
@@ -571,7 +593,11 @@ section {
 
 @media (max-width: 991px) {
     .hero {
+        text-align: center;
+        background: url('../img/responsive/hero-mobile.png') top center no-repeat;
+        width: auto;
         height: auto;
+        background-size: cover;
         padding: 120px 0 60px 0;
     }
     .hero .hero-img {
@@ -582,15 +608,20 @@ section {
     .hero .hero-img img {
         width: 80%;
     }
+    .hero .barcode {
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 
 @media (max-width: 768px) {
     .hero {
         text-align: center;
         background: url('../img/responsive/hero-mobile.png') top center no-repeat;
-        /* height: 100%; */
-        min-height: 100vh;
-        width: 100%;
+        width: auto;
+        height: auto;
+        background-size: cover;
     }
     .hero h1 {
         font-size: 32px;
@@ -669,32 +700,35 @@ section {
     transform: translateX(5px);
 }
 
-.hero .barcode {
-    max-width: 210px;
-    /* background-color: white; */
-    /* padding: 20px; */
-    /* margin: 10%; */
-    /* tambahan */
-    display: block;
-    /* margin-left: auto; */
-    margin-right: auto;
-    margin-top: 20px;
-    border-radius: 10px;
-    box-shadow: 0px 0 30px #00000094;
+.about img {
+    margin: auto;
+    height: 500px;
 }
 
-.hero .barcode p {
-    text-align: center;
-    font-size: 30px;
-    font-weight: 700;
-    color: #262476;
+@media(max-width:1024px) {
+    .about {
+        background-attachment: fixed;
+    }
+    .about img {
+        margin: auto;
+        height: 500px;
+    }
 }
 
-@media (max-width: 991px) {
-    .hero .barcode {
-        margin-top: auto;
-        margin-left: auto;
-        margin-top: auto;
+@media(max-width:991px) {
+    .about img {
+        margin: auto;
+        height: 500px;
+    }
+}
+
+@media(max-width:768px) {
+    .about {
+        background: url('../img/responsive/hero-mobile.png') top center;
+    }
+    .about img {
+        margin: auto;
+        height: auto;
     }
 }
 
@@ -744,13 +778,6 @@ section {
     background-size: 150% auto;
 }
 
-@media(max-width:768px) {
-    .counts {
-        background-size: 100% right no-repeat;
-        background-size: auto;
-    }
-}
-
 .counts .count-box {
     display: flex;
     align-items: center;
@@ -780,6 +807,26 @@ section {
     margin: 0;
     font-family: "Nunito", sans-serif;
     font-size: 14px;
+}
+
+@media(max-width:1024px) {
+    .counts {
+        background-attachment: fixed;
+    }
+}
+
+@media(max-width:991px) {
+    .counts {}
+}
+
+@media(max-width:768px) {
+    .counts {
+        text-align: center;
+        background: url('../img/responsive/hero-mobile.png') top center no-repeat;
+        width: auto;
+        height: auto;
+        background-size: cover;
+    }
 }
 
 
@@ -1172,12 +1219,6 @@ section {
 # RUNDOWN
 --------------------------------------------------------------*/
 
-
-/* .rundown {
-    background-image: url('../img/bg-white.jpg');
-    background-size: cover;
-} */
-
 .rundown .accordion-collapse {
     border: 0;
 }
@@ -1203,7 +1244,11 @@ section {
 
 .rundown .accordion-body {
     padding: 0 0 25px 0;
-    border: 0;
+    border: 10;
+    background-color: #fafafa;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    padding: 10px;
 }
 
 .rundown .rundown-img img {
@@ -1214,8 +1259,8 @@ section {
 }
 
 @media(max-width:991px) {
-    .rundown img {
-        width: 80%;
+    .rundown .rundown-img img {
+        width: 90%;
         display: block;
         margin-left: auto;
         margin-right: auto;
@@ -1231,15 +1276,6 @@ section {
     background-image: url('../img/landing-page/bg-ungu.jpg');
     background-size: cover;
     background-position: center;
-}
-
-@media(max-width: 768px) {
-    .portfolio {
-        background-image: url('../img/responsive/mobile-3.png');
-    }
-    .portfolio .section-header p {
-        margin: 28px;
-    }
 }
 
 .portfolio .section-header p {
@@ -1416,6 +1452,28 @@ section {
 .portfolio .portfolio-wrap:hover .portfolio-info::after {
     bottom: 15px;
     right: 15px;
+}
+
+@media(max-width: 1024px) {
+    .portfolio {
+        background-attachment: fixed;
+    }
+}
+
+@media(max-width: 991px) {
+    .portfolio {}
+}
+
+@media(max-width: 768px) {
+    .portfolio {
+        background-image: url('../img/responsive/hero-mobile.png');
+        background-size: cover;
+        width: auto;
+        height: auto;
+    }
+    .portfolio .section-header p {
+        margin: 28px;
+    }
 }
 
 
@@ -2423,13 +2481,6 @@ section {
     background-size: 100%;
 }
 
-@media(max-width:768px) {
-    .footer {
-        background-image: url('../img/responsive/mobile-footer.jpg') center no-repeat;
-        background-size: cover;
-    }
-}
-
 .footer .footer-newsletter {
     padding: 50px 0;
     background: #f6f9ff;
@@ -2535,19 +2586,6 @@ section {
     transition: 0.3s;
 }
 
-@media(max-width:768px) {
-    .footer {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        background-size: 200%;
-    }
-    .footer .footer-top .footer-info .logo span {
-        font-size: 20px;
-        font-weight: 800;
-    }
-}
-
 .footer .footer-top .social-links a:hover {
     color: #2eb1e6;
 }
@@ -2625,11 +2663,45 @@ section {
     margin-right: 10px;
 }
 
-@media(max-width: 1024px) {}
+@media(max-width:1024px) {
+    .footer {
+        background-attachment: fixed;
+    }
+}
 
-@media(max-width: 991px) {}
+@media(max-width:991px) {
+    .footer {
+        /* display: block;
+        margin-left: auto;
+        margin-right: auto;
+        background-size: 200%;
+        background-image: url('../img/responsive/mobile-footer.jpg') center no-repeat;
+        background-size: cover; */
+    }
+    .footer .footer-top .footer-info .logo span {
+        font-size: 20px;
+        font-weight: 800;
+    }
+    .footer .footer-top .footer-links h4 {
+        text-align: center;
+    }
+}
 
 @media(max-width:768px) {
+    .footer {
+        /* display: block;
+        margin-left: auto;
+        margin-right: auto; */
+        /* background-size: 200%; */
+        background-image: url('../img/responsive/hero-mobile.png') center no-repeat;
+        background-size: cover;
+        width: auto;
+        height: auto;
+    }
+    .footer .footer-top .footer-info .logo span {
+        font-size: 20px;
+        font-weight: 800;
+    }
     .footer .footer-top .footer-links h4 {
         text-align: center;
     }
