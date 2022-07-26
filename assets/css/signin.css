@@ -63,16 +63,6 @@ body {
     user-select: none;
 }
 
-@media (max-width: 768px) {
-    .bd-placeholder-img-lg {
-        font-size: 3.5rem;
-    }
-    .hero {
-        background-size: cover;
-        background: url('../img/responsive/hero-mobile.png') center no-repeat;
-    }
-}
-
 .b-example-divider {
     height: 3rem;
     background-color: rgba(0, 0, 0, .1);
@@ -114,9 +104,27 @@ body {
     background-image: var(--gradient-3);
 }
 
-
-/* @media(max-width:768px) {
+@media (max-width: 1024px) {
     .hero {
-        background-image: url('assets/img/mobile-login.jpg') !important;
+        background-attachment: fixed;
     }
-} */
+}
+
+@media (max-width: 991px) {
+    .hero {
+        height: auto;
+        padding: 120px 0 60px 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+    }
+    .hero {
+        background: url('../img/responsive/hero-mobile.png') center no-repeat;
+        background-size: cover;
+        width: auto;
+        height: auto;
+    }
+}
