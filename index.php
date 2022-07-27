@@ -292,7 +292,7 @@
                     <div class="col-lg-6">
 
                         <!-- Rundown List 2-->
-                        <div class="accordion accordion-flush" id="rundownlist2">
+                        <div class="accordion accordion-flush" id="rundownlist1">
 
                             <div class="accordion-item">
                                 <h2 class="accordion-header">
@@ -300,7 +300,7 @@
                                         Breakfast (06.00 - 09.00 WIB)
                                     </button>
                                 </h2>
-                                <div id="rundown2-content-6" class="accordion-collapse collapse" data-bs-parent="#rundownlist2">
+                                <div id="rundown2-content-6" class="accordion-collapse collapse" data-bs-parent="#rundownlist1">
                                     <div class="accordion-body">
                                         Karyawan dan keluarga bisa menikmati sarapan pagi sambil istirahat sejenak untuk persiapan Perlombaan Agustusan dan Treasure HSunt 
                                     </div>
@@ -313,7 +313,7 @@
                                         Family Games (Lomba Agustusan) + Treasure Hunt (09.00 - 11.30 WIB)
                                     </button>
                                 </h2>
-                                <div id="rundown2-content-7" class="accordion-collapse collapse" data-bs-parent="#rundownlist2">
+                                <div id="rundown2-content-7" class="accordion-collapse collapse" data-bs-parent="#rundownlist1">
                                     <div class="accordion-body">
                                         Tepat Pukul 09.00 WIB, peserta diarahkan kembali menuju area outdoor Hotel Ketapang untuk mengikuti game khas 17-an. Game bisa dimainkan oleh anak anak maupun bersama keluarga.
                                     </div>
@@ -326,7 +326,7 @@
                                         Prepare Back To Paiton (11.30 - 12.00 WIB)
                                     </button>
                                 </h2>
-                                <div id="rundown2-content-8" class="accordion-collapse collapse" data-bs-parent="#rundownlist2">
+                                <div id="rundown2-content-8" class="accordion-collapse collapse" data-bs-parent="#rundownlist1">
                                     <div class="accordion-body">
                                         Maksimal jam 11.30 WIB seluruh kegiatan akan di closed. Agar peserta bisa prepare untuk checkout. 
                                     </div>
@@ -339,7 +339,7 @@
                                         Check Out Hotel & Back To Paiton (12.00 - 17.00 WIB)
                                     </button>
                                 </h2>
-                                <div id="rundown2-content-9" class="accordion-collapse collapse" data-bs-parent="#rundownlist2">
+                                <div id="rundown2-content-9" class="accordion-collapse collapse" data-bs-parent="#rundownlist1">
                                     <div class="accordion-body">
                                         Selesai checkout peserta akan mendapatkan lunch box dan paket oleh oleh khas Banyuwangi. Setelah itu perjalanan kembali ke Paiton.
                                     </div>
@@ -369,7 +369,7 @@
             <div class="container" data-aos="fade-up">
 
                 <header class="section-header">
-                    <p>Destinasi</p>
+                    <p>Preview Event</p>
                     <!-- <h2>Portfolio</h2> -->
                 </header>
 
@@ -377,8 +377,8 @@
                     <div class="col-lg-12 d-flex justify-content-center">
                         <ul id="portfolio-flters">
                             <li data-filter="*" class="filter-active">All</li>
-                            <li data-filter=".filter-app">Pegunungan</li>
-                            <li data-filter=".filter-card">Pantai</li>
+                            <li data-filter=".filter-app">Games</li>
+                            <li data-filter=".filter-card">Hotel</li>
                             <li data-filter=".filter-web">Hutan</li>
                         </ul>
                     </div>
@@ -386,29 +386,29 @@
 
                 <div class="row gy-4 portfolio-container" data-aos="fade-up" data-aos-delay="200">
 
-                    <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-app">
                         <div class="portfolio-wrap">
-                            <img src="assets/img/destinasi/alas-purwo.jpg" class="img-fluid" alt="">
+                            <img src="assets/img/destinasi/pomi-warrior.jpg" class="img-fluid" alt="">
                             <div class="portfolio-info">
-                                <h4>Alas Purwo</h4>
-                                <p>Hutan</p>
+                                <h4>POMI Warrior</h4>
+                                <p>Games</p>
                                 <div class="portfolio-links">
-                                    <a href="assets/img/destinasi/alas-purwo.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Alas Purwo"><i class="bi bi-plus"></i></a>
-                                    <a href="https://youtu.be/gWV6X1JVGwY" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Alas Purwo"><i class="bi bi-play-fill"></i></a>
+                                    <a href="assets/img/destinasi/pomi-warrior.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Alas Purwo"><i class="bi bi-plus"></i></a>
+                                    <a href="assets/img/destinasi/pomi-warrior.mp4" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Alas Purwo"><i class="bi bi-play-fill"></i></a>
                                 </div>
                             </div>
                         </div>
                     </div>
 
-                    <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-card">
                         <div class="portfolio-wrap">
-                            <img src="assets/img/destinasi/baluran.jpg" class="img-fluid" alt="">
+                            <img src="assets/img/destinasi/hotel-illira.jpg" class="img-fluid" alt="">
                             <div class="portfolio-info">
-                                <h4>Baluran</h4>
-                                <p>Hutan</p>
+                                <h4>Hotel Illira</h4>
+                                <p>Hotel</p>
                                 <div class="portfolio-links">
-                                    <a href="assets/img/destinasi/baluran.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Alas Purwo"><i class="bi bi-plus"></i></a>
-                                    <a href="https://youtu.be/rN2y8Vy9xdE" data-gallery="portfolioGallery" class="portfokio-lightbox"  title="Alas Purwo"><i class="bi bi-play-fill"></i></a>
+                                    <a href="assets/img/destinasi/hotel-illira.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Hotel Illira"><i class="bi bi-plus"></i></a>
+                                    <a href="https://youtu.be/Pkf6vwbyahI" data-gallery="portfolioGallery" class="portfokio-lightbox"  title="Hotel Illira"><i class="bi bi-play-fill"></i></a>
                                 </div>
                             </div>
                         </div>
