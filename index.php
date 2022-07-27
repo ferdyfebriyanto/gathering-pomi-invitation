@@ -423,8 +423,8 @@
                                 <h4>POMI Warrior</h4>
                                 <p>Games</p>
                                 <div class="portfolio-links">
-                                    <a href="assets/img/destinasi/pomi-warrior.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Alas Purwo"><i class="bi bi-plus"></i></a>
-                                    <a href="assets/img/destinasi/pomi-warrior.mp4" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Alas Purwo"><i class="bi bi-play-fill"></i></a>
+                                    <a href="assets/img/destinasi/pomi-warrior.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox" title="POMI Warrior"><i class="bi bi-plus"></i></a>
+                                    <a href="assets/img/destinasi/pomi-warrior.mp4" data-gallery="portfolioGallery" class="portfokio-lightbox" title="POMI Warrior"><i class="bi bi-play-fill"></i></a>
                                 </div>
                             </div>
                         </div>
