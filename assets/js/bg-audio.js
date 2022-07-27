@@ -8,9 +8,11 @@ function playMyAudio() {
     if (status == 0) {
         status = 1;
         document.getElementById("myAudio").pause();
+        document.getElementById(iconID).className = "bi bi-volume-mute";
     } else {
         status = 0;
         document.getElementById("myAudio").play();
+        document.getElementById(iconID).className = "bi bi-volume-up";
     }
 };
 

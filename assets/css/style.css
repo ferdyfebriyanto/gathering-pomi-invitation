@@ -815,9 +815,10 @@ section {
     }
 }
 
-@media(max-width:991px) {
+
+/* @media(max-width:991px) {
     .counts {}
-}
+} */
 
 @media(max-width:768px) {
     .counts {
@@ -826,6 +827,15 @@ section {
         width: auto;
         height: auto;
         background-size: cover;
+    }
+    .counts .count-box {
+        display: flex;
+        align-items: center;
+        padding: 30px;
+        width: 50%;
+        background: #fff;
+        border-radius: 10px;
+        box-shadow: 0px 0 30px #2b388f52;
     }
 }
 

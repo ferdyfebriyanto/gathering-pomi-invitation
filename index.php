@@ -75,13 +75,13 @@
                 <div class="col-lg-6 d-flex flex-column justify-content-center">
                     <h1 data-aos="fade-up"> Selamat Datang, <?php echo $_SESSION['id']; ?></h1>
                     <h2 data-aos="fade-up" data-aos-delay="400">Di Family Gathering POMI</h2> 
-                            <div class="card barcode">
+                            <div class="card barcode" data-aos="fade-up" data-aos-delay="600">
                                 <!-- <img src="assets/img/qr-code.jpg" class="card-img-top" alt="..."> -->
                                 <!-- QR CODE -->
                                 <?php
                                     // Include the qrlib file
                                     include 'phpqrcode/qrlib.php';
-                                    $text = "http://localhost/family-gathering-pomi/";
+                                    $text = $_SESSION['id'];
                                     
                                     // $path variable store the location where to 
                                     // store image and $file creates directory name
@@ -135,9 +135,9 @@
                     <div class="col-lg-6 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="200">
                         <div class="content">
                             <h2>Family Gathering - Employee Outbond</h2>
-                            <hr>
+                            <!-- <hr>
                             <h3>Lokasi 1 &emsp;: Ketapang Indah Hotel</h3>
-                            <h3>Lokasi 2 &emsp;: Illira Hotel</h3>
+                            <h3>Lokasi 2 &emsp;: Illira Hotel</h3> -->
                             <hr>
                             <h3>Batch 1 | Banyuwangi, 13-14 Agustus 2022</h3>
                             <hr>
@@ -363,6 +363,36 @@
         </section>
         <!-- End Rundown Section -->
 
+        <!-- ======= Competition Section ======= -->
+        <section id="competition" class="competition">
+
+            <div class="container" data-aos="fade-up">
+
+                <header class="section-header">
+                    <p>Competition</p>
+                    <h2>TIKTOK/REELS CHALLENGE</h2>
+                </header>
+
+                <div class="row">
+
+                    <div class="col-lg-6">
+
+                    </div>
+
+                    <div class="col-lg-6">
+                        <div class="col-lg-12 rundown-img" data-aos="zoom-out" data-aos-delay="200">
+                            <img src="assets/img/destinasi/agustusan.jpg" class="img-fluid" alt="">
+                        </div>
+                    </div>
+
+
+                </div>
+
+            </div>
+
+        </section>
+        <!-- End Competition Section -->
+
         <!-- ======= Portfolio Section ======= -->
         <section id="portfolio" class="portfolio">
 
@@ -379,7 +409,7 @@
                             <li data-filter="*" class="filter-active">All</li>
                             <li data-filter=".filter-app">Games</li>
                             <li data-filter=".filter-card">Hotel</li>
-                            <li data-filter=".filter-web">Hutan</li>
+                            <li data-filter=".filter-web">Hiburan</li>
                         </ul>
                     </div>
                 </div>
@@ -408,21 +438,7 @@
                                 <p>Hotel</p>
                                 <div class="portfolio-links">
                                     <a href="assets/img/destinasi/hotel-illira.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Hotel Illira"><i class="bi bi-plus"></i></a>
-                                    <a href="https://youtu.be/Pkf6vwbyahI" data-gallery="portfolioGallery" class="portfokio-lightbox"  title="Hotel Illira"><i class="bi bi-play-fill"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-                        <div class="portfolio-wrap">
-                            <img src="assets/img/destinasi/de-djawatan-forest.jpg" class="img-fluid" alt="">
-                            <div class="portfolio-info">
-                                <h4>De Djawatan Forest</h4>
-                                <p>Hutan</p>
-                                <div class="portfolio-links">
-                                    <a href="assets/img/destinasi/de-djawatan-forest.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox" title="De Djawatan Forest"><i class="bi bi-plus"></i></a>
-                                    <a href="https://youtu.be/-SF5rwv3mXg" data-gallery="portfolioGallery" class="portfokio-lightbox"  title="De Djawatan Forest"><i class="bi bi-play-fill"></i></a>
+                                    <!-- <a href="https://youtu.be/Pkf6vwbyahI" data-gallery="portfolioGallery" class="portfokio-lightbox"  title="Hotel Illira"><i class="bi bi-play-fill"></i></a> -->
                                 </div>
                             </div>
                         </div>
@@ -430,19 +446,33 @@
 
                     <div class="col-lg-4 col-md-6 portfolio-item filter-app">
                         <div class="portfolio-wrap">
-                            <img src="assets/img/destinasi/gunung-ranti.jpg" class="img-fluid" alt="">
+                            <img src="assets/img/destinasi/family-games.jpg" class="img-fluid" alt="">
                             <div class="portfolio-info">
-                                <h4>Gunung Ranti</h4>
-                                <p>Pegunungan</p>
+                                <h4>Family Games</h4>
+                                <p>Games</p>
                                 <div class="portfolio-links">
-                                    <a href="assets/img/destinasi/gunung-ranti.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Gunung Ranti"><i class="bi bi-plus"></i></a>
-                                    <a href="https://youtu.be/udxb8oTUd1U" data-gallery="portfolioGallery" class="portfokio-lightbox"  title="Gunung Ranti"><i class="bi bi-play-fill"></i></a>
+                                    <a href="assets/img/destinasi/family-games.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Family Games"><i class="bi bi-plus"></i></a>
+                                    <!-- <a href="https://youtu.be/-SF5rwv3mXg" data-gallery="portfolioGallery" class="portfokio-lightbox"  title="De Djawatan Forest"><i class="bi bi-play-fill"></i></a> -->
                                 </div>
                             </div>
                         </div>
                     </div>
 
                     <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                        <div class="portfolio-wrap">
+                            <img src="assets/img/destinasi/hotel-ketapang-indah.jpg" class="img-fluid" alt="">
+                            <div class="portfolio-info">
+                                <h4>Hotel Ketapang Indah</h4>
+                                <p>Hotel</p>
+                                <div class="portfolio-links">
+                                    <a href="assets/img/destinasi/hotel-ketapang-indah.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Hotel Ketapang Indah"><i class="bi bi-plus"></i></a>
+                                    <!-- <a href="https://youtu.be/udxb8oTUd1U" data-gallery="portfolioGallery" class="portfokio-lightbox"  title="Gunung Ranti"><i class="bi bi-play-fill"></i></a> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-app">
                         <div class="portfolio-wrap">
                             <img src="assets/img/destinasi/kawah-ijen.jpg" class="img-fluid" alt="">
                             <div class="portfolio-info">
@@ -454,9 +484,9 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
 
-                    <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+                    <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-card">
                         <div class="portfolio-wrap">
                             <img src="assets/img/destinasi/muncar.jpg" class="img-fluid" alt="">
                             <div class="portfolio-info">
@@ -468,9 +498,9 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
 
-                    <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+                    <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-card">
                         <div class="portfolio-wrap">
                             <img src="assets/img/destinasi/red-island.jpg" class="img-fluid" alt="">
                             <div class="portfolio-info">
@@ -482,9 +512,9 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
 
-                    <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+                    <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-web">
                         <div class="portfolio-wrap">
                             <img src="assets/img/destinasi/taman-gandrung.jpg" class="img-fluid" alt="">
                             <div class="portfolio-info">
@@ -496,9 +526,9 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
 
-                    <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+                    <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-card">
                         <div class="portfolio-wrap">
                             <img src="assets/img/destinasi/villa-so-long.jpg" class="img-fluid" alt="">
                             <div class="portfolio-info">
@@ -510,7 +540,7 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
 
                 </div>
 
@@ -538,21 +568,21 @@
                                 <div class="info-box">
                                     <i class="bi bi-geo-alt"></i>
                                     <h3>Alamat</h3>
-                                    <p>Sentral Senayan II, 5th floor <br> Jl. Asia Afrika No. 8 <br> Jakarta 10270, Indonesia</p>
+                                    <p>Sidosermo PDK V-A Kav. 376 <br> Surabaya 60293</p>
                                 </div>
                             </div>
                             <div class="col-md-4">
                                 <div class="info-box">
                                     <i class="bi bi-telephone"></i>
                                     <h3>Telepon Kami</h3>
-                                    <p>+62 (21) 5797 4524</p>
+                                    <p>(031) 99852945 <br> 08980009999</p>
                                 </div>
                             </div>
                             <div class="col-md-4">
                                 <div class="info-box">
                                     <i class="bi bi-envelope"></i>
                                     <h3>Email Kami</h3>
-                                    <p>info@paitonenergy.com</p>
+                                    <p>omdidik@omdideas.com</p>
                                 </div>
                             </div>
                             
@@ -570,8 +600,8 @@
     </main>
     <!-- End #main -->
 
-                <!-- ======= Count Down Section ======= -->
-                <section id="counts" class="counts">
+        <!-- ======= Count Down Section ======= -->
+        <section id="counts" class="counts">
             <div class="container" data-aos="fade-up">
 
                 <div class="row gy-4">
@@ -628,31 +658,25 @@
         <div class="footer-top">
             <div class="container">
                 <div class="row gy-4">
-                    <div class="col-lg-5 col-md-12 footer-info">
+                    <div class="col-lg-12 col-md-12 footer-info">
                         <a href="index.php" class="logo d-flex align-items-center">
                             <img src="assets/img/pomi.png" alt="">
                             <span>Family Gathering POMI</span>
                         </a>
-                        <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus.</p>
-                        <div class="social-links mt-3">
+                        <!-- <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus.</p> -->
+                        <!-- <div class="social-links mt-3">
                             <a href="https://www.instagram.com/pjb_ubjompaiton/" class="instagram"><i class="bi bi-instagram" target="blank"> </i>@Gathering</a>
-                        </div>
+                        </div> -->
                     </div>
 
-                    <div class="col-lg-7 col-md-12 footer-links">
+                    <!-- <div class="col-lg-7 col-md-12 footer-links">
                         <h4>Powered By</h4>
                         <div class="row  gy-4">
                             <div class="col-lg-3 col-md-2 col-12 col-12">
                                 <img src="assets/img/logo-vendor/logo-vendor.png" alt="" class="f-logo">
                             </div>
-                            <!-- <div class="col-lg-3 col-md-3 col-12 col-12">
-                                <img src="assets/img/logo-vendor/pitoe-event.png" alt="" class="f-logo">
-                            </div>
-                            <div class="col-lg-3 col-md-2 col-12 col-12">
-                                <img src="assets/img/logo-vendor/wrnet.png" alt="" class="f-logo">
-                            </div> -->
                         </div>
-                    </div>
+                    </div> -->
 
                 </div>
             </div>
@@ -660,23 +684,23 @@
 
         <div class="container">
             <div class="copyright">
-                &copy; Copyright <strong><span>WR.NET</span></strong>. All Rights Reserved
+                &copy; Copyright <strong><span><a href="https://instagram.com/wrnet.id">WR.NET</a></span></strong>. All Rights Reserved
             </div>
-            <div class="credits">
+            <!-- <div class="credits">
                 Designed by <a href="https://instagram.com/wrnet.id">WR.NET</a>
-            </div>
+            </div> -->
         </div>
     </footer>
     <!-- End Footer -->
 
-    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+    <!-- <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a> -->
 
     <!-- ======= Background Audio ======= -->
-    <div class="audio-bg" style="display: scroll; position: fixed; right: 10px; bottom: 60px; width:50px">
+    <div class="audio-bg" style="display: scroll; position: fixed; right: 10px; bottom: 10px; width:50px">
         <audio hidden controls autoplay loop id="myAudio">
             <source src="assets/audio/bg-cinematic.mp3" type="audio/mpeg">
         </audio>
-        <a href="#" onClick="playMyAudio()" class="btn btn-lg btn-primary"><i id="icon1" onclick="change('icon1')" class="bi bi-volume-up" style="color: white;" aria-hidden="true"></i></a>
+        <a onClick="playMyAudio()" class="btn btn-lg btn-primary"><i id="icon1" onclick="change('icon1')" class="bi bi-volume-up" style="color: white;" aria-hidden="true"></i></a>
     </div>
 
     <!-- End Background Audio -->
