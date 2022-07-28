@@ -17,9 +17,21 @@
     <!-- Styles Vendor -->
     <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-</head>
+    <!-- Vendor JS Files -->
+    <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 
+</head>
 <body class="text-center hero">
+
+    <script type="text/javascript">
+        function alert(){
+            swal("NIP anda Salah!!");
+        }
+        $(document).ready(function() {
+        });
+    </script>
+    
     <?php
         $msg = '';
         session_start();
@@ -30,29 +42,21 @@
                 $_SESSION['id'] = $_POST['nip'] ;
                 $_SESSION['nama'] = $_POST['nip'] ;
                 header("location:./index.php");
-                echo "<script>alert('Berhasil login')</script>";
+                // echo '<script> alert();</script>';
+                // echo '<script>swal("Good job!", "You clicked the button!", "success");</script>';
+                
             }else {
+                echo '<script> alert();</script>';
                 // $msg = 'Wrong id or password';
-                echo "<script>alert('ID atau NIP yang dimasukkan salah')</script>";
+                // echo '<script>swal({icon: "danger", "Hello world!"})</script>';
             }
         }
     ?>
-    
 
     <main class="form-signin w-100 m-auto">
         <form action="" method="post">
             <img class="mb-4" src="assets/img/pomi.png" alt="" width="300" height="auto">
             <h1 class="h3 mb-3 fw-normal">Selamat Datang</h1>
-
-            <!-- =====Alert===== -->
-            <!-- <div id="berhasil" class="alert alert-primary" role="alert">
-                Login Berhasil
-            </div>
-
-            <div id="gagal" class="alert alert-danger" role="alert">
-                Coba Cek Kembali NIP Anda
-            </div> -->
-            <!-- End Alert -->
 
             <div class="form-floating">
                 <input type="text" class="form-control" name="nip" id="floatingInput" placeholder="Masukkan ID atau NIP anda"  required>
@@ -63,6 +67,7 @@
             <p class="mt-5 mb-3 text-muted">WR.Net - Pitoe Creative Network &copy; 2022</p>
         </form>
     </main>
+    
 </body>
 
 </html>

@@ -653,6 +653,7 @@ section {
     background-color: #f6f9ff;
     padding: 40px;
     border-radius: 10px;
+    text-align: justify;
 }
 
 .about h3 {
@@ -1274,6 +1275,22 @@ section {
     }
     .rundown .accordion {
         margin: 20px;
+    }
+}
+
+
+/*--------------------------------------------------------------
+# Competition 
+--------------------------------------------------------------*/
+
+.competition {
+    text-align: justify;
+}
+
+@media(max-width:991px) {
+    .competition {
+        padding-left: 20px;
+        padding-right: 20px;
     }
 }
 

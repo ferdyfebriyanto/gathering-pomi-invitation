@@ -141,11 +141,15 @@
                             <hr>
                             <h3>Batch 1 | Banyuwangi, 13-14 Agustus 2022</h3>
                             <hr>
-                            <ul>
+                            <p style="margin-bottom: 15px">PT POMI selalu bergerak untuk kemajuan dan rasa persatuan . Untuk menjaga keselarasan atas perbedaan pandangan, perbedaan suku ,ras serta perbedaan jabatan  antar karyawan</p>
+                            <p style="margin-bottom: 15px">PT POMI senantiasa berusaha memberikan yang terbaik bagi karyawannya, termasuk menghadirkan moment kebersamaan yang hangat bersama keluarga tercinta</p>
+                            <p>Let's Synergize - The Power of One  mengajak seluruh jajaran karyawan untuk senantiasa bahu membahu, bersatu padu, menyatukan visi & misi   serta merapatkan barisan untuk terus memberikan yg terbaik bagi perusahaan  sesuai dengan POMI VALUE : TRUST, EMPOWERMENT, TEAMWORK & CONTINUOUS IMPROVEMENT</p>
+                            <!-- <hr> -->
+                            <!-- <ul>
                                 <li>Mengingat rangkaian acara sudah dimulai sejak keberangkatan, menghimbau untuk seluruh peserta turut serta menaiki transportasi bus yang telah disediakan panitia demi kelancaran bersama.</li>
                                 <li>Panitia tidak menyediakan kompensasi bagi peserta yang menggunakan kendaraan pribadi.</li>
                                 <li>Seluruh peserta wajib mengikuti acara Employee Outbond sebagai salah satu syarat pengundian Grand Prize & Door Prize.</li>
-                            </ul>
+                            </ul> -->
                         </div>
                     </div>
 
@@ -288,6 +292,11 @@
                 </header>
 
                 <div class="row">
+                    <div class="col-lg-6">
+                        <div class="col-lg-12 rundown-img" data-aos="zoom-out" data-aos-delay="200">
+                            <img src="assets/img/destinasi/agustusan.jpg" class="img-fluid" alt="">
+                        </div>
+                    </div>
 
                     <div class="col-lg-6">
 
@@ -345,17 +354,12 @@
                                     </div>
                                 </div>
                             </div>
-
+                            
                         </div>
                     </div>
-
-                    <div class="col-lg-6">
-                        <div class="col-lg-12 rundown-img" data-aos="zoom-out" data-aos-delay="200">
-                            <img src="assets/img/destinasi/agustusan.jpg" class="img-fluid" alt="">
-                        </div>
-                    </div>
-
-
+                    
+                    
+                    
                 </div>
 
             </div>
@@ -373,19 +377,18 @@
                     <h2>TIKTOK/REELS CHALLENGE</h2>
                 </header>
 
-                <div class="row">
-
-                    <div class="col-lg-6">
-
+                <div class="row d-flex flex-wrap align-items-center">
+                    <div class="col-lg-6 rundown-img" data-aos="zoom-out" data-aos-delay="200">
+                        <img src="assets/img/logo-vendor/tiktok-reels.png" class="img-fluid" alt="" style="">
                     </div>
-
-                    <div class="col-lg-6">
-                        <div class="col-lg-12 rundown-img" data-aos="zoom-out" data-aos-delay="200">
-                            <img src="assets/img/destinasi/agustusan.jpg" class="img-fluid" alt="">
-                        </div>
+                    <div class="col-lg-6" data-aos="zoom-out" data-aos-delay="300">
+                        <p>Untuk mengurangi rasa bosan dan jenuh selama perjalanan, mari ikuti tantangan membuat video TIKTOK / REELS CHALLENGE</p>
+                        <p>Persyaratan Challenge:</p>
+                        <ul>
+                            <li>Video yang dibuat harus mengandung unsur POMI Family Gathering 2022</li>
+                            <li>Video berupa Pantun, Yel-yel, atau Video Seru lainnya.</li>
+                        </ul>
                     </div>
-
-
                 </div>
 
             </div>
@@ -458,7 +461,7 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-card">
                         <div class="portfolio-wrap">
                             <img src="assets/img/destinasi/hotel-ketapang-indah.jpg" class="img-fluid" alt="">
                             <div class="portfolio-info">
@@ -606,7 +609,7 @@
 
                 <div class="row gy-4">
 
-                    <div class="col-lg-3 col-md-6 col-xs-6">
+                    <div class="col-lg-3 col-md-6">
                         <div class="count-box">
                             <i class="bi bi-calendar-day"></i>
                             <div>
@@ -616,7 +619,7 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-3 col-md-6 col-xs-6">
+                    <div class="col-lg-3 col-md-6">
                         <div class="count-box">
                             <i class="bi bi-clock" style="color: #ee6c20;"></i>
                             <div>
@@ -626,7 +629,7 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-3 col-md-6 col-xs-6">
+                    <div class="col-lg-3 col-md-6">
                         <div class="count-box">
                             <i class="bi bi-hourglass-split" style="color: #15be56;"></i>
                             <div>
@@ -636,7 +639,7 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-3 col-md-6 col-xs-6">
+                    <div class="col-lg-3 col-md-6">
                         <div class="count-box">
                             <i class="bi bi-stopwatch" style="color: #bb0852;"></i>
                             <div>
@@ -658,7 +661,7 @@
         <div class="footer-top">
             <div class="container">
                 <div class="row gy-4">
-                    <div class="col-lg-12 col-md-12 footer-info">
+                    <div class="col-lg-6 col-md-12 footer-info">
                         <a href="index.php" class="logo d-flex align-items-center">
                             <img src="assets/img/pomi.png" alt="">
                             <span>Family Gathering POMI</span>
@@ -669,14 +672,14 @@
                         </div> -->
                     </div>
 
-                    <!-- <div class="col-lg-7 col-md-12 footer-links">
+                    <div class="col-lg-6 col-md-12 footer-links">
                         <h4>Powered By</h4>
                         <div class="row  gy-4">
                             <div class="col-lg-3 col-md-2 col-12 col-12">
                                 <img src="assets/img/logo-vendor/logo-vendor.png" alt="" class="f-logo">
                             </div>
                         </div>
-                    </div> -->
+                    </div>
 
                 </div>
             </div>
